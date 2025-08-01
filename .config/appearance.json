@@ -1,8 +1,13 @@
 {
-  "theme": "system",
-  "accentColor": "#297dbc",
+  "theme": "obsidian",
+  "accentColor": "#5f7dab",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "navigation"
-  ]
+  ],
+  "nativeMenus": false,
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "showViewHeader": true,
+  "showRibbon": true
 }

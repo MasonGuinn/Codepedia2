@@ -4,14 +4,8 @@ tags:
 cssclasses:
   - nav-hub
 ---
-
-
 ```dataview
 TABLE WITHOUT ID
-file.link
-FROM "Content/Development"
-WHERE file.name = display(link(file.folder))
+file.link FROM #hub 
 SORT file.name ASC
 ```
-
-

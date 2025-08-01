@@ -1,1 +1,5 @@
-{}
+{
+  "showUnsupportedFiles": true,
+  "readableLineLength": true,
+  "propertiesInDocument": "visible"
+}

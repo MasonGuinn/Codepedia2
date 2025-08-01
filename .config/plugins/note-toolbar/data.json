@@ -1,0 +1,211 @@
+{
+  "debugEnabled": false,
+  "emptyViewToolbar": null,
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [
+    {
+      "folder": "*",
+      "toolbar": "c1205b51-ebd0-4193-8165-93e44b0127fc"
+    }
+  ],
+  "icon": "circle-ellipsis",
+  "keepPropsState": false,
+  "onboarding": {
+    "new-toolbar-mapping": true
+  },
+  "ribbonAction": "toolbar",
+  "scriptingEnabled": true,
+  "showEditInFabMenu": false,
+  "showLaunchpad": false,
+  "showToolbarIn": {
+    "audio": false,
+    "bases": false,
+    "canvas": false,
+    "image": false,
+    "kanban": false,
+    "pdf": false,
+    "video": false
+  },
+  "showToolbarInFileMenu": false,
+  "showToolbarInOther": "",
+  "toolbarProp": "notetoolbar",
+  "toolbars": [
+    {
+      "uuid": "c1205b51-ebd0-4193-8165-93e44b0127fc",
+      "customClasses": "navbar",
+      "defaultItem": null,
+      "defaultStyles": [
+        "center",
+        "button"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "bb48a460-0c37-44e3-82a9-13a550bdf65f",
+          "hasCommand": false,
+          "icon": "home",
+          "inGallery": false,
+          "label": "",
+          "link": "Home.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "target": "",
+            "type": "file"
+          },
+          "plugin": "",
+          "tooltip": "Home",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        },
+        {
+          "uuid": "33da8f3a-ecec-4dca-bc33-266c1b4aff94",
+          "hasCommand": false,
+          "icon": "lucide-code",
+          "inGallery": false,
+          "label": "",
+          "link": "Development.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "target": "",
+            "type": "file"
+          },
+          "plugin": "",
+          "tooltip": "Development",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        },
+        {
+          "uuid": "394eb9a0-f0c9-4f34-9edd-d38cd55bfff8",
+          "hasCommand": false,
+          "icon": "lucide-graduation-cap",
+          "inGallery": false,
+          "label": "",
+          "link": "School.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "target": "",
+            "type": "file"
+          },
+          "plugin": "",
+          "tooltip": "School",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Navbar",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "top"
+          }
+        }
+      },
+      "updated": "2025-08-01T06:48:04.128Z"
+    }
+  ],
+  "version": 20250313.1,
+  "whatsnew_version": "1.25"
+}
