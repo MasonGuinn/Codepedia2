@@ -1,0 +1,34 @@
+/* Hide the table header */
+.nav-dev .table-view-thead {
+    display: none;
+}
+
+/* Make the table BODY the flex container */
+.nav-dev .table-view-tbody {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Makes the table rows and cells "disappear"
+from the layout, so the links <a> inside are treated as the direct
+children of the flex container above.
+*/
+.nav-dev .table-view-tbody tr,
+.nav-dev .table-view-tbody td {
+    display: contents;
+}
+
+/* Style the links themselves to look like buttons */
+.nav-dev .table-view-tbody a.internal-link {
+    display: inline-block;
+    font-size: 1.1em;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-dev .table-view-tbody a.internal-link:hover {
+    background-color: var(--background-modifier-hover);
+}

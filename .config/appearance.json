@@ -1,0 +1,8 @@
+{
+  "theme": "system",
+  "accentColor": "#297dbc",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "navigation"
+  ]
+}
