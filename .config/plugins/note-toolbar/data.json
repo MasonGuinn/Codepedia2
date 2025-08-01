@@ -1,6 +1,6 @@
 {
   "debugEnabled": false,
-  "emptyViewToolbar": null,
+  "emptyViewToolbar": "c1205b51-ebd0-4193-8165-93e44b0127fc",
   "export": {
     "includeIcons": true,
     "replaceVars": true,
@@ -50,7 +50,7 @@
           "hasCommand": false,
           "icon": "home",
           "inGallery": false,
-          "label": "",
+          "label": "Home",
           "link": "Home.md",
           "linkAttr": {
             "commandCheck": false,
@@ -60,7 +60,7 @@
             "type": "file"
           },
           "plugin": "",
-          "tooltip": "Home",
+          "tooltip": "",
           "visibility": {
             "desktop": {
               "allViews": {
@@ -96,7 +96,7 @@
           "hasCommand": false,
           "icon": "lucide-code",
           "inGallery": false,
-          "label": "",
+          "label": "Dev",
           "link": "Development.md",
           "linkAttr": {
             "commandCheck": false,
@@ -106,7 +106,7 @@
             "type": "file"
           },
           "plugin": "",
-          "tooltip": "Development",
+          "tooltip": "",
           "visibility": {
             "desktop": {
               "allViews": {
@@ -142,7 +142,7 @@
           "hasCommand": false,
           "icon": "lucide-graduation-cap",
           "inGallery": false,
-          "label": "",
+          "label": "School",
           "link": "School.md",
           "linkAttr": {
             "commandCheck": false,
@@ -152,7 +152,7 @@
             "type": "file"
           },
           "plugin": "",
-          "tooltip": "School",
+          "tooltip": "",
           "visibility": {
             "desktop": {
               "allViews": {
@@ -203,7 +203,7 @@
           }
         }
       },
-      "updated": "2025-08-01T06:48:04.128Z"
+      "updated": "2025-08-01T07:48:50.016Z"
     }
   ],
   "version": 20250313.1,

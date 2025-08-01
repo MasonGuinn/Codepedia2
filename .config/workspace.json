@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Content/Development/C/C.md",
                 "mode": "preview",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "C"
             }
           }
         ]
@@ -111,28 +111,38 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "School.md",
-    "Home.md",
     "Development.md",
-    "Content/Development/C/C.md",
-    "README.md",
-    "Content/Development/C-Sharp/C-Sharp.md",
-    "Content/Development/Cybersecurity/Cybersecurity.md",
+    "School.md",
+    "Content/School/Winter 2026/Winter 2026.md",
+    "Content/School/Spring 2026/Spring 2026.md",
+    "Content/School/Fall 2025/Fall 2025.md",
+    "Content/School/Spring 2026",
+    "Content/School/Fall 2025",
+    "Content/School/Winter 2026",
+    "Content/School",
     "Content/Development/Computer Science/Computer Science.md",
-    "Content/Development/Computer Science",
+    "Content/Development/Cybersecurity/Cybersecurity.md",
+    "Home.md",
     "Content/Development/C++/C++.md",
     "Content/Development/Python/Python.md",
-    "Content",
+    "Content/Development/C/C.md",
+    "Development/Python/Python.md",
+    "Development/Cybersecurity/Cybersecurity.md",
+    "Development/C-Sharp/C-Sharp.md",
+    "Development/C++/C++.md",
+    "Development/C/C.md",
+    "Development/Python",
+    "Development/Cybersecurity",
+    "Development/C-Sharp",
+    "Development/C++",
+    "Development/C",
+    "Development",
+    "README.md",
+    "Content/Development/C-Sharp/C-Sharp.md",
     "Welcome.md",
-    "Content/Development/Cybersecurity",
     "Development/test.md",
-    "Content/Development/C-Sharp",
     "Development/C/C++++.md",
     "Development/C++/test.md",
-    "example.jpg",
-    "Content/Development/C++",
-    "Content/Development/C",
-    "Content/Development/Python",
-    "Content/Development"
+    "example.jpg"
   ]
 }

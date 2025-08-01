@@ -1,5 +1,6 @@
-/* --- Modern Color & Animation Variables --- */
-
+/* --- navigation.css --- */
+/* --- Created by Mason Guinn --- */
+/* --- Color & Animation Variables --- */
 :root {
     --nav-accent-color: #5865F2;
     --nav-dark-bg: #2E3338;
@@ -12,76 +13,8 @@
     --transition: all 0.2s ease-out;
 }
 
-/* --- Layout Rules --- */
-
-.nav-hub .table-view-tbody {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-items: center;
-    padding: 10px 0;
-    width: 100%;
-    justify-content: center;
-}
-
-.nav-hub .table-view-thead { display: none; }
-.nav-hub .dataview {
-    display: flex;
-    justify-content: center;
-}
-
-.nav-hub .table-view-tbody tr,
-.nav-hub .table-view-tbody td {
-    display: contents;
-}
-
-/* --- Simplified Button Styling --- */
-.nav-hub .table-view-tbody a.internal-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 44px;
-    padding: 0 20px; /* Base padding */
-    border-radius: 8px;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 1.3em; /* Base font size */
-    font-weight: 600;
-    text-decoration: none;
-    box-shadow: var(--shadow-base);
-    transition: var(--transition);
-}
-
-/* --- Dark Theme --- */
-.theme-dark .nav-hub .table-view-tbody a.internal-link {
-    background-color: var(--nav-dark-bg);
-    color: var(--nav-dark-text);
-}
-
-/* --- Light Theme --- */
-.theme-light .nav-hub .table-view-tbody a.internal-link {
-    background-color: var(--nav-light-bg);
-    color: var(--nav-light-text);
-}
-
-/* --- Hover & Active States (for both themes) --- */
-.nav-hub .table-view-tbody a.internal-link:hover {
-    color: white;
-    background-color: var(--nav-accent-color);
-    box-shadow: var(--shadow-hover);
-    /* simple animation */
-    padding: 0 22px;
-    font-size: 1.4em;
-}
-
-.nav-hub .table-view-tbody a.internal-link:active {
-
-    transition-duration: 0.1s;
-
-}
-
-/* --- Customizing Navbar by targeting note-toolbar plugin --- */
-
-/* Layout for the toolbar - mirrors .nav-hub layout */
+/* --- Grouped Layout Rules (for both nav types) --- */
+.nav-hub .table-view-tbody,
 .callout[data-callout="note-toolbar"] .callout-content ul {
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +25,16 @@
     justify-content: center;
 }
 
-/* Base Button Styling for toolbar links */
+/* --- Grouped Helper Rules --- */
+.nav-hub .table-view-thead { display: none; }
+.nav-hub .dataview { display: flex; justify-content: center; }
+.nav-hub .table-view-tbody tr,
+.nav-hub .table-view-tbody td {
+    display: contents;
+}
+
+/* --- Grouped Base Button Styling (for all nav buttons) --- */
+.nav-hub .table-view-tbody a.internal-link,
 .callout[data-callout="note-toolbar"] .callout-content a,
 .callout[data-callout="note-toolbar"] .callout-content span.external-link {
     display: inline-flex;
@@ -109,21 +51,24 @@
     transition: var(--transition);
 }
 
-/* --- Dark Theme --- */
+/* --- Grouped Dark Theme --- */
+.theme-dark .nav-hub .table-view-tbody a.internal-link,
 .theme-dark .callout[data-callout="note-toolbar"] .callout-content a,
 .theme-dark .callout[data-callout="note-toolbar"] .callout-content span.external-link {
     background-color: var(--nav-dark-bg);
     color: var(--nav-dark-text);
 }
 
-/* --- Light Theme --- */
+/* --- Grouped Light Theme --- */
+.theme-light .nav-hub .table-view-tbody a.internal-link,
 .theme-light .callout[data-callout="note-toolbar"] .callout-content a,
 .theme-light .callout[data-callout="note-toolbar"] .callout-content span.external-link {
     background-color: var(--nav-light-bg);
     color: var(--nav-light-text);
 }
 
-/* --- Hover States (for both themes) --- */
+/* --- Grouped Hover State --- */
+.nav-hub .table-view-tbody a.internal-link:hover,
 .callout[data-callout="note-toolbar"] .callout-content a:hover,
 .callout[data-callout="note-toolbar"] .callout-content span.external-link:hover {
     color: white;
@@ -133,12 +78,12 @@
     font-size: 1.4em;
 }
 
-/* --- Active States (for both themes) --- */
+/* --- Grouped Active State --- */
 .nav-hub .table-view-tbody a.internal-link:active,
 .callout[data-callout="note-toolbar"] .callout-content a:active,
 .callout[data-callout="note-toolbar"] .callout-content span.external-link:active {
     transition-duration: 0.1s;
-    box-shadow: var(--shadow-active);  /* Creates a "press in" shadow */
-    font-size: 1.38em;                 /* Makes it slightly smaller than the hover size */
+    box-shadow: var(--shadow-active);
+    font-size: 1.38em;
     padding: 0 21px;
 }
