@@ -4,5 +4,7 @@
   "dataview",
   "obsidian-style-settings",
   "homepage",
-  "lazy-plugins"
+  "lazy-plugins",
+  "obsidian-icon-folder",
+  "note-toolbar"
 ]

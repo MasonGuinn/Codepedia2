@@ -25,7 +25,10 @@
         "startupType": "instant"
       },
       "note-toolbar": {
-        "startupType": "short"
+        "startupType": "instant"
+      },
+      "obsidian-icon-folder": {
+        "startupType": "instant"
       }
     }
   }

@@ -1,0 +1,12 @@
+/* --- notes.css --- */
+/* --- Created by Mason Guinn --- */
+/* --- Color & Animation Variables --- */
+.inline-title {
+    text-align: center;
+    border-radius: 15px;
+    padding: 0;
+    margin-bottom: 50px;
+    --inline-title-weight: 300;
+    --inline-title-size: 3em;
+    --inline-title-color: #5865F2;
+}

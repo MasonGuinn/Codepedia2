@@ -45,7 +45,7 @@
     border-radius: 8px;
     font-family: "JetBrains Mono", monospace;
     font-size: 1.3em;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
     box-shadow: var(--shadow-base);
     transition: var(--transition);

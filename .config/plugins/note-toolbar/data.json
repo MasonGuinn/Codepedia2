@@ -182,6 +182,88 @@
           "scriptConfig": {
             "pluginFunction": ""
           }
+        },
+        {
+          "uuid": "de90d84b-0ecb-43f4-b623-848a243de77a",
+          "hasCommand": false,
+          "icon": "",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "break"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "4ffdee1c-78cd-4f3a-9306-81be520827da",
+          "hasCommand": false,
+          "icon": "",
+          "inGallery": false,
+          "label": "",
+          "link": "34957854-b694-4245-94de-9c8c7c78153a",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "group"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
         }
       ],
       "mobileStyles": [],
@@ -203,7 +285,169 @@
           }
         }
       },
-      "updated": "2025-08-01T07:48:50.016Z"
+      "updated": "2025-08-01T08:14:58.728Z"
+    },
+    {
+      "uuid": "34957854-b694-4245-94de-9c8c7c78153a",
+      "customClasses": "",
+      "defaultItem": null,
+      "defaultStyles": [
+        "button",
+        "between",
+        "center"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "519c8ee6-3b12-49fa-be64-0b6cb7db56ec",
+          "hasCommand": false,
+          "icon": "left-arrow",
+          "inGallery": false,
+          "label": "",
+          "link": "{{prop_backward}}",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "uri"
+          },
+          "tooltip": "{{prop_backward}}",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        },
+        {
+          "uuid": "fa6873da-494b-401a-9672-f73742d29460",
+          "hasCommand": false,
+          "icon": "lucide-arrow-up-left-from-square",
+          "inGallery": false,
+          "label": "",
+          "link": "{{prop_parent}}",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "uri"
+          },
+          "tooltip": "{{prop_parent}}",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "4e3192f6-114e-47cf-a39b-b535c32c208a",
+          "hasCommand": false,
+          "icon": "right-arrow",
+          "inGallery": false,
+          "label": "",
+          "link": "{{prop_forward}}",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "uri"
+          },
+          "tooltip": "{{prop_forward}}",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Quick Navbar",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-08-01T08:33:05.734Z"
     }
   ],
   "version": 20250313.1,

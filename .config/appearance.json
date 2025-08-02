@@ -3,7 +3,8 @@
   "accentColor": "#5f7dab",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "navigation"
+    "navigation",
+    "notes"
   ],
   "nativeMenus": false,
   "baseFontSizeAction": false,
