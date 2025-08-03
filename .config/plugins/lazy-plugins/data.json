@@ -29,6 +29,9 @@
       },
       "obsidian-icon-folder": {
         "startupType": "instant"
+      },
+      "folder-notes": {
+        "startupType": "short"
       }
     }
   }

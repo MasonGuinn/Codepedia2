@@ -4,14 +4,17 @@
 :root {
     --nav-accent-color: #5865F2;
     --nav-dark-bg: #2E3338;
+    --nav-dark-icon-bg: #464a4d;
     --nav-dark-text: #EAECEF;
     --nav-light-bg: #F2F3F5;
+    --nav-light-icon-bg: #d3d8db;
     --nav-light-text: #2E3338;
     --shadow-base: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
     --shadow-hover: 0 0 15px -2px var(--nav-accent-color), 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-active: inset 0 2px 4px rgba(0,0,0,0.2);
     --transition: all 0.2s ease-out;
 }
+
 
 /* --- Grouped Layout Rules (for both nav types) --- */
 .nav-hub .table-view-tbody,
@@ -43,7 +46,7 @@
     height: 44px;
     padding: 0 20px;
     border-radius: 8px;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Ubuntu Mono", monospace;
     font-size: 1.3em;
     font-weight: 400;
     text-decoration: none;
@@ -86,4 +89,67 @@
     box-shadow: var(--shadow-active);
     font-size: 1.38em;
     padding: 0 21px;
+}
+
+/* --- Navigation Title --- */
+.nav-hub h1:has(.nav-title) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    color: var(--nav-dark-text);
+    box-shadow: var(--shadow-base);
+}
+
+/* Indicator */
+.nav-hub h1:has(.nav-title) .heading-collapse-indicator{
+    background-color: var(--nav-light-bg);
+    position: unset;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; /* Make it a circle */
+    transition: var(--transition);
+}
+
+/* Indicator Hover  */
+.nav-hub h1:has(.nav-title) .heading-collapse-indicator:hover{
+    cursor: pointer;
+}
+
+/* --- Navigation Title Theme Colors--- */
+.theme-dark .nav-hub h1:has(.nav-title) {
+    background-color: var(--nav-dark-bg);
+    color: var(--nav-dark-text);
+}
+.theme-light .nav-hub h1:has(.nav-title) {
+    background-color: var(--nav-light-bg);
+    color: var(--nav-light-text);
+}
+
+/* Indicator Theme Colors */
+.theme-light .nav-hub h1:has(.nav-title) .heading-collapse-indicator{
+    background-color: var(--nav-light-icon-bg);
+}
+
+.theme-dark .nav-hub h1:has(.nav-title) .heading-collapse-indicator{
+    background-color: var(--nav-dark-icon-bg);
+}
+
+/* Indicator Icon Theme Colors */
+.theme-light .nav-hub h1:has(.nav-title) .heading-collapse-indicator svg{
+    color: var(--nav-light-text);
+}
+
+.theme-dark .nav-hub h1:has(.nav-title) .heading-collapse-indicator svg{
+    color: var(--nav-dark-text);
 }

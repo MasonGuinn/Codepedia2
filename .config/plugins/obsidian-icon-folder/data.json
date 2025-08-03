@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiDatabase",
+      "LiNotebook",
+      "LiHome",
+      "LiCode",
+      "LiComputer"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -16,7 +22,7 @@
     },
     "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
-    "iconInTitlePosition": "above",
+    "iconInTitlePosition": "inline",
     "iconInFrontmatterEnabled": false,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
@@ -27,5 +33,12 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "School": "LiGraduationCap",
+  "School/Spring 2026/Spring 2026.md": {
+    "iconName": "LiCloudSun"
+  },
+  "Technology": "LiComputer",
+  "Home.md": "LiHome",
+  "Resources": "LiDatabase"
 }

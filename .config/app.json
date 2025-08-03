@@ -2,5 +2,9 @@
   "showUnsupportedFiles": true,
   "readableLineLength": true,
   "propertiesInDocument": "visible",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Assets/Attachments",
+  "userIgnoreFilters": [
+    "Assets/"
+  ]
 }
