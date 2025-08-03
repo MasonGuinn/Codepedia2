@@ -1,15 +1,14 @@
 ---
 tags:
-  - hub
+  - area
 cssclasses:
-  - nav-hub
-parent: "[[Technology]]"
+  - nav-menu
 order: 1
 ---
 
 
 ```dataview
-TABLE WITHOUT ID
+LIST WITHOUT ID
 file.link
 FROM "Technology/Development"
 WHERE file.name != this.file.name

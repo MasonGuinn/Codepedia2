@@ -1,10 +1,10 @@
 ---
-backward: "[[CSharp]]"
-parent: "[[Development Dashboard]]"
-forward: "[[Python]]"
+backward: "[[Note Template]]"
+parent: "[[Development]]"
+forward: "[[Area Template]]"
 order: 99
 cssclasses:
-  - nav-hub
+  - nav-menu
 ---
 
 # <span class="nav-title">Change Me</span>

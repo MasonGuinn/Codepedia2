@@ -285,7 +285,7 @@
           }
         }
       },
-      "updated": "2025-08-03T01:08:12.315Z"
+      "updated": "2025-08-03T07:23:06.717Z"
     },
     {
       "uuid": "34957854-b694-4245-94de-9c8c7c78153a",
@@ -447,7 +447,118 @@
           }
         }
       },
-      "updated": "2025-08-01T08:33:05.734Z"
+      "updated": "2025-08-03T07:19:43.433Z"
+    },
+    {
+      "uuid": "08ce42c6-2584-4733-8f55-711730ce0061",
+      "customClasses": "",
+      "defaultItem": null,
+      "defaultStyles": [],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "5165b2b4-440c-4678-850e-2d0b3c98703b",
+          "hasCommand": false,
+          "icon": "lucide-file-search",
+          "inGallery": false,
+          "label": "Search & Replace",
+          "link": "Search & replace in current file",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "editor:open-search-replace",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "d52ce368-2f30-45b6-99c7-86f092102867",
+          "hasCommand": false,
+          "icon": "lucide-search",
+          "inGallery": false,
+          "label": "Search in all files",
+          "link": "Search: Search in all files",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "global-search:open",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Search",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-08-03T07:28:03.263Z"
     }
   ],
   "version": 20250313.1,

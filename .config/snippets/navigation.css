@@ -14,30 +14,36 @@
     --shadow-active: inset 0 2px 4px rgba(0,0,0,0.2);
     --transition: all 0.2s ease-out;
 }
+.nav-menu .list-view-ul li {
+    margin-inline-start: 0;
+}
 
+/* Editing Toolbar Plugin */
+#editingToolbarModalBar.top {
+    margin-top: 2em;
+}
 
-/* --- Grouped Layout Rules (for both nav types) --- */
-.nav-hub .table-view-tbody,
+#editingToolbarModalBar button {
+    margin: 0!important;
+    padding: 0.5em!important;
+}
+
+/* --- Grouped Layout Rules --- */
+.nav-menu .list-view-ul,
 .callout[data-callout="note-toolbar"] .callout-content ul {
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     align-items: center;
-    padding: 10px 0;
     width: 100%;
     justify-content: center;
+    list-style-type: none; /* ADDED: Removes bullet points */
+    padding-inline-start: 0; /* ADDED: Removes default list indentation */
 }
 
-/* --- Grouped Helper Rules --- */
-.nav-hub .table-view-thead { display: none; }
-.nav-hub .dataview { display: flex; justify-content: center; }
-.nav-hub .table-view-tbody tr,
-.nav-hub .table-view-tbody td {
-    display: contents;
-}
-
-/* --- Grouped Base Button Styling (for all nav buttons) --- */
-.nav-hub .table-view-tbody a.internal-link,
+/* --- Grouped Base Button Styling --- */
+.nav-menu .list-view-ul li a.internal-link,
 .callout[data-callout="note-toolbar"] .callout-content a,
 .callout[data-callout="note-toolbar"] .callout-content span.external-link {
     display: inline-flex;
@@ -55,7 +61,7 @@
 }
 
 /* --- Grouped Dark Theme --- */
-.theme-dark .nav-hub .table-view-tbody a.internal-link,
+.theme-dark .nav-menu .list-view-ul li a.internal-link, /* CHANGED */
 .theme-dark .callout[data-callout="note-toolbar"] .callout-content a,
 .theme-dark .callout[data-callout="note-toolbar"] .callout-content span.external-link {
     background-color: var(--nav-dark-bg);
@@ -63,7 +69,7 @@
 }
 
 /* --- Grouped Light Theme --- */
-.theme-light .nav-hub .table-view-tbody a.internal-link,
+.theme-light .nav-menu .list-view-ul li a.internal-link, /* CHANGED */
 .theme-light .callout[data-callout="note-toolbar"] .callout-content a,
 .theme-light .callout[data-callout="note-toolbar"] .callout-content span.external-link {
     background-color: var(--nav-light-bg);
@@ -71,7 +77,7 @@
 }
 
 /* --- Grouped Hover State --- */
-.nav-hub .table-view-tbody a.internal-link:hover,
+.nav-menu .list-view-ul li a.internal-link:hover, /* CHANGED */
 .callout[data-callout="note-toolbar"] .callout-content a:hover,
 .callout[data-callout="note-toolbar"] .callout-content span.external-link:hover {
     color: white;
@@ -82,7 +88,7 @@
 }
 
 /* --- Grouped Active State --- */
-.nav-hub .table-view-tbody a.internal-link:active,
+.nav-menu .list-view-ul li a.internal-link:active, /* CHANGED */
 .callout[data-callout="note-toolbar"] .callout-content a:active,
 .callout[data-callout="note-toolbar"] .callout-content span.external-link:active {
     transition-duration: 0.1s;
@@ -91,8 +97,8 @@
     padding: 0 21px;
 }
 
-/* --- Navigation Title --- */
-.nav-hub h1:has(.nav-title) {
+/* --- Navigation Title (No changes needed below) --- */
+.nav-menu h1:has(.nav-title) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +115,7 @@
 }
 
 /* Indicator */
-.nav-hub h1:has(.nav-title) .heading-collapse-indicator{
+.nav-menu h1:has(.nav-title) .heading-collapse-indicator{
     background-color: var(--nav-light-bg);
     position: unset;
     display: inline-flex;
@@ -121,35 +127,35 @@
     transition: var(--transition);
 }
 
-/* Indicator Hover  */
-.nav-hub h1:has(.nav-title) .heading-collapse-indicator:hover{
+/* Indicator Hover */
+.nav-menu h1:has(.nav-title) .heading-collapse-indicator:hover{
     cursor: pointer;
 }
 
 /* --- Navigation Title Theme Colors--- */
-.theme-dark .nav-hub h1:has(.nav-title) {
+.theme-dark .nav-menu h1:has(.nav-title) {
     background-color: var(--nav-dark-bg);
     color: var(--nav-dark-text);
 }
-.theme-light .nav-hub h1:has(.nav-title) {
+.theme-light .nav-menu h1:has(.nav-title) {
     background-color: var(--nav-light-bg);
     color: var(--nav-light-text);
 }
 
 /* Indicator Theme Colors */
-.theme-light .nav-hub h1:has(.nav-title) .heading-collapse-indicator{
+.theme-light .nav-menu h1:has(.nav-title) .heading-collapse-indicator{
     background-color: var(--nav-light-icon-bg);
 }
 
-.theme-dark .nav-hub h1:has(.nav-title) .heading-collapse-indicator{
+.theme-dark .nav-menu h1:has(.nav-title) .heading-collapse-indicator{
     background-color: var(--nav-dark-icon-bg);
 }
 
 /* Indicator Icon Theme Colors */
-.theme-light .nav-hub h1:has(.nav-title) .heading-collapse-indicator svg{
+.theme-light .nav-menu h1:has(.nav-title) .heading-collapse-indicator svg{
     color: var(--nav-light-text);
 }
 
-.theme-dark .nav-hub h1:has(.nav-title) .heading-collapse-indicator svg{
+.theme-dark .nav-menu h1:has(.nav-title) .heading-collapse-indicator svg{
     color: var(--nav-dark-text);
 }

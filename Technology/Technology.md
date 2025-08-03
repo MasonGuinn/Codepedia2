@@ -1,14 +1,14 @@
 ---
 order: 1
 cssclasses:
-  - nav-hub
+  - nav-menu
 tags:
-  - hub
+  - section
 ---
 
 
 ```dataview
-TABLE WITHOUT ID
+LIST WITHOUT ID
 file.link
 FROM "Technology"
 WHERE length(split(file.folder, "/")) = length(split(this.file.folder, "/")) + 1 AND file.name = display(link(file.folder))

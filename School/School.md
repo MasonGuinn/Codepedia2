@@ -1,12 +1,12 @@
 ---
 tags:
-  - hub
+  - section
 cssclasses:
-  - nav-hub
+  - nav-menu
 ---
 
 ```dataview
-TABLE WITHOUT ID
+LIST WITHOUT ID
 file.link
 FROM "School"
 WHERE file.name != this.file.name

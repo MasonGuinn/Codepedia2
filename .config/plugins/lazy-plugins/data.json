@@ -32,6 +32,9 @@
       },
       "folder-notes": {
         "startupType": "short"
+      },
+      "make-md": {
+        "startupType": "short"
       }
     }
   }

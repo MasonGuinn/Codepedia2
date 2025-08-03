@@ -1,7 +1,7 @@
 ---
-backward: "[[CSharp]]"
-parent: "[[Development Dashboard]]"
-forward: "[[Python]]"
+backward: "[[Area Template]]"
+parent: "[[Development]]"
+forward: "[[Topic Template]]"
 order: 99
 ---
 

@@ -4,7 +4,9 @@ parent: "[[School]]"
 forward: "[[Spring 2026]]"
 order: 2
 cssclasses:
-  - nav-hub
+  - nav-menu
+tags:
+  - topic
 ---
 
 # <span class="nav-title">Change Me</span>
