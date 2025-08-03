@@ -25,10 +25,11 @@ This system relies on a few key parts working together:
 
 ## 1. Folder Structure
 
-The $\color{Green}{\textsf{Green}}$ color represents a folder note (a folder that is also a note) using the folder-note plugin
+The $\color{Green}{\textsf{Green}}$ color represents a regular note
+Everything else is a Folder Node (a folder that is also a note)
 
-- $\color{Green}{\textsf{Resources/}}$ -
-	- $\color{Green}{\textsf{Attachments/}}$ - 
+- `Resources/` -
+	- `Attachments/` - 
 	- `Templates/` - 
 - `School/` - 
 	- `Fall 2025/` - 
@@ -39,14 +40,14 @@ The $\color{Green}{\textsf{Green}}$ color represents a folder note (a folder tha
 	- `Cybersecurity/`
 		- `Certificates/`
 			- `Network+/`
-				- `OSI Model`
-				- `Subnet`
+				- $\color{Green}{\textsf{OSI Model}}$
+				- $\color{Green}{\textsf{Subnet}}$
 	- `Development/`
 		- `C/`
 		- `Cpp/`
 		- `CSharp/`
 		- `Python/`
-- `Home`
+- $\color{Green}{\textsf{Home}}$
 
 
 ---
