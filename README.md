@@ -24,9 +24,10 @@ This system relies on a few key parts working together:
 ---
 
 ## 1. Folder Structure
-Note: text that is <span style="color: orange">orange</span> is a folder note, (a folder that is also a note)
 
-- <span style="color:orange; background-color:#333742; font-family:monospace; padding:0.2em 0.4em; border-radius:4px;">Resources</span>/ - 
+$\color{Green}{\textsf{Normal, colored text}}$
+
+- `Resources/` - </span>
 	- `Attachments/`
 	- `Templates/`
 - `School/`
