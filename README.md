@@ -27,8 +27,8 @@ This system relies on a few key parts working together:
 
 The $\color{Green}{\textsf{Green}}$ color represents a folder note (a folder that is also a note) using the folder-note plugin
 
-- `$\color{Green}{\textsf{Resources}}$` -
-	- `Attachments/` - 
+- $\color{Green}{\textsf{`Resources/`}}$ -
+	- $\color{Green}{\textsf{`Attachments/``}}$ - 
 	- `Templates/` - 
 - `School/` - 
 	- `Fall 2025/` - 
