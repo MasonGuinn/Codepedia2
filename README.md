@@ -25,13 +25,13 @@ This system relies on a few key parts working together:
 
 ## 1. Folder Structure
 
-$\color{Green}{\textsf{Normal, colored text}}$
+The $\color{Green}{\textsf{Green}}$ color represents a folder note (a folder that is also a note) using the folder-note plugin
 
-- `Resources/` - </span>
-	- `Attachments/`
-	- `Templates/`
-- `School/`
-	- `Fall 2025/`
+- `$\color{Green}{\textsf{Resources}}$` -
+	- `Attachments/` - 
+	- `Templates/` - 
+- `School/` - 
+	- `Fall 2025/` - 
 	- `Spring 2026/`
 	- `Winter 2026/`
 - `Technology/`
