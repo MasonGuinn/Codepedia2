@@ -2,15 +2,15 @@
   "file-explorer": true,
   "global-search": true,
   "switcher": false,
-  "graph": true,
+  "graph": false,
   "backlink": false,
-  "canvas": true,
+  "canvas": false,
   "outgoing-link": false,
   "tag-pane": true,
   "properties": false,
   "page-preview": false,
   "daily-notes": false,
-  "templates": true,
+  "templates": false,
   "note-composer": false,
   "command-palette": true,
   "slash-command": false,
@@ -27,5 +27,7 @@
   "file-recovery": false,
   "publish": false,
   "sync": false,
-  "webviewer": false
+  "webviewer": true,
+  "footnotes": false,
+  "bases": false
 }

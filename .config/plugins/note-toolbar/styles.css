@@ -1,4 +1,4 @@
-/* note: make any modifications to this file in src/styles.css */
+/* NOTE: make any modifications to this file in src/Styles/styles.css */
 
 /* @settings
 
@@ -74,8 +74,10 @@ settings:
     -
         id: cg-nt-fab-border-color
         title: 'Border color'
+        title.zh: '边框颜色'
         title.uk: 'Колір рамки'
         description: 'Border around button. The "border" style must be added to the toolbar first.'
+        description.zh: '按钮周围的边框。必须先将“边框”样式添加到工具栏才会生效。'
         description.uk: 'Рамка навколо кнопки. Стиль "рамка" повинен бути додан до панелі.'
         type: variable-themed-color
         opacity: true
@@ -135,7 +137,7 @@ settings:
         description: "Distance from the edge of the editor view."
         description.uk: 'Відстань від краю вікна редактора.'
         description.de: 'Als Prozentsatz der Breite des Editors, ausgehend vom linken Rand (umgekehrt, wenn sich die Schaltfläche rechts befindet).'
-        description.zh: '基于左侧边缘，占编辑器宽度的百分比（当按钮在右侧时则相反）'
+        description.zh: '距编辑器视图边缘的距离。'
         type: variable-number
         default: 24
         format: px
@@ -148,7 +150,7 @@ settings:
         description: "Distance from the bottom of the editor view."
         description.uk: 'Відстань від нижнього краю вікна редактора.'
         description.de: 'Als Prozentsatz der Höhe des Editors, vom oberen Rand aus.'
-        description.zh: '基于顶部边缘，占编辑器高度的百分比'
+        description.zh: '距编辑器视图底部的距离。'
         type: variable-number
         default: 50
         format: px
@@ -161,7 +163,7 @@ settings:
         description: "Distance from the bottom of the editor view."
         description.uk: 'Відстань від нижнього краю вікна редактора.'
         description.de: 'Als Prozentsatz der Höhe des Editors, vom oberen Rand aus.'
-        description.zh: '基于顶部边缘，占编辑器高度的百分比'
+        description.zh: '距编辑器视图底部的距离。'
         type: variable-number
         default: 24
         format: px
@@ -179,7 +181,7 @@ settings:
         title: 'Padding on desktop (in px units)'
         title.uk: "Відступи на комп'ютері (пікселі)"
         title.de: 'Abstand am PC (in px)'
-        title.zh: '桌面端内边距（单位：像素）'
+        title.zh: '桌面端内边距（单位：px）'
         description: 'Spacing around the icon.'
         description.uk: 'Відстань навколо іконки.'
         description.de: 'Abstand um das Symbol herum'
@@ -192,7 +194,7 @@ settings:
         title: 'Padding on mobile (in px units) 📱'
         title.uk: 'Відступи на мобільному (пікселі) 📱'
         title.de: 'Abstand am Handy (in px) 📱'
-        title.zh: '移动端内边距（单位：像素）📱'
+        title.zh: '移动端内边距（单位：px）📱'
         description: 'Spacing around the icon.'
         description.uk: 'Відстань навколо іконки.'
         description.zh: '图标周围的间距（Padding）'
@@ -204,7 +206,7 @@ settings:
         title: 'Icon size on desktop (in px units)'
         title.uk: "Розмір іконки на комп'ютері (пікселі)"
         title.de: 'Symbolgröße am PC (in px) 📱'
-        title.zh: '桌面端图标大小（单位：像素）'
+        title.zh: '桌面端图标大小（单位：px）'
         type: variable-number
         default: 20
         format: px
@@ -213,7 +215,7 @@ settings:
         title: 'Icon size on mobile (in px units) 📱'
         title.uk: 'Розмір іконки на мобільному (пікселі) 📱'
         title.de: 'Symbolgröße am Handy (in px) 📱'
-        title.zh: '移动端图标大小（单位：像素）📱'
+        title.zh: '移动端图标大小（单位：px）📱'
         type: variable-number
         default: 24
         format: px
@@ -222,7 +224,7 @@ settings:
         title: 'Icon stroke width on desktop (in px units)'
         title.uk: "Ширина контуру іконки на комп'ютері (пікселі)"
         title.de: 'Symbol-Strichstärke am PC (in px)'
-        title.zh: '桌面端图标描边宽度（单位：像素）'
+        title.zh: '桌面端图标描边宽度（单位：px）'
         type: variable-number
         default: 1.8
         format: px
@@ -231,7 +233,7 @@ settings:
         title: 'Icon stroke width on mobile (in px units) 📱'
         title.uk: 'Ширина контуру іконки на мобільному (пікселі) 📱'
         title.de: 'Symbol-Strichstärke am Handy (in px) 📱'
-        title.zh: '移动端图标描边宽度（单位：像素）📱'
+        title.zh: '移动端图标描边宽度（单位：px）📱'
         type: variable-number
         default: 1.8
         format: px
@@ -247,8 +249,10 @@ settings:
     -
         id: cg-nt-fab-autohide-opacity
         title: 'Autohide opacity'
+        title.zh: '自动隐藏的透明度'
         title.uk: 'Прозорість при автоприховуванні'
         description: 'When autohide style is enabled, how transparent the button is when hidden'
+        description.zh: '当启用自动隐藏样式时，隐藏状态的按钮的透明度'
         description.uk: 'Якщо увімкнено автоприховування, наскільки прозорою буде кнопка, коли вона прихована'
         type: variable-number-slider
         default: 0
@@ -260,7 +264,7 @@ settings:
         title: 'Border radius on desktop (in px units)'
         title.uk: "Круглість рамки на комп'ютері (пікселі)"
         title.de: 'Rahmenabrundung am PC (in px)'
-        title.zh: '桌面端边框圆角（单位：像素）'
+        title.zh: '桌面端边框圆角（单位：px）'
         description: 'How rounded the button is. The higher the number the more rounded. (Plugin defaults: Android = 16, iOS = 999)'
         description.uk: 'Наскільки круглою є кнопка. Чим більше число, тим більше округлення.'
         description.de: 'Wie abgerundet die Schaltfläche ist. Je höher die Zahl, desto runder.'
@@ -273,7 +277,7 @@ settings:
         title: 'Border radius on mobile (in px units) 📱'
         title.uk: 'Круглість рамки на мобільному (пікселі) 📱'
         title.de: 'Rahmenabrundung am Handy (in px) 📱'
-        title.zh: '移动端边框圆角（单位：像素）📱'
+        title.zh: '移动端边框圆角（单位：px）📱'
         description: 'How rounded the button is. The higher the number the more rounded. (Plugin defaults: Android = 16, iOS = 999)'
         description.uk: 'Наскільки круглою є кнопка. Чим більше число, тим більше округлення.'
         description.de: 'Wie abgerundet die Schaltfläche ist. Je höher die Zahl, desto runder. (Plugin-Standardwerte: Android = 16, iOS = 999)'
@@ -342,10 +346,10 @@ settings:
         default-dark: '#'
     -
         id: cg-nt-item-text-color
-        title: 'Text color'
+        title: 'Icon + text color'
         title.uk: 'Колір тексту'
         title.de: 'Textfarbe'
-        title.zh: '文本颜色'
+        title.zh: '图标和文本颜色'
         type: variable-themed-color
         opacity: true
         format: hex
@@ -353,10 +357,10 @@ settings:
         default-dark: '#'
     -
         id: cg-nt-item-text-color-hover
-        title: 'Text color (on hover)'
+        title: 'Icon + text color (on hover)'
         title.uk: 'Колір тексту (при наведенні)'
         title.de: 'Textfarbe (beim Überfahren mit der Maus)'
-        title.zh: '鼠标悬停时的文本颜色'
+        title.zh: '图标和文本颜色（悬停时）'
         type: variable-themed-color
         opacity: true
         format: hex
@@ -385,7 +389,7 @@ settings:
         title: 'Icon size (in px units)'
         title.uk: 'Розмір іконки (пікселі)'
         title.de: 'Symbolgröße (in px)'
-        title.zh: '图标大小（单位：像素）'
+        title.zh: '图标大小（单位：px）'
         type: variable-number
         default: 18
         format: px
@@ -421,7 +425,7 @@ settings:
         title: 'Border radius (in px units)'
         title.uk: 'Закруглення рамок (пікселі)'
         title.de: 'Rahmenrundung (in px)'
-        title.zh: '边框圆角（单位：像素）'
+        title.zh: '边框圆角（单位：px）'
         type: variable-number
         default: 5
         format: px
@@ -525,7 +529,7 @@ settings:
         title: 'Icon size (in px units)'
         title.uk: 'Розмір іконки (пікселі)'
         title.de: 'Symbolgröße (in px)'
-        title.zh: '图标大小（单位：像素）'
+        title.zh: '图标大小（单位：px）'
         type: variable-number
         default: 16
         format: px
@@ -543,7 +547,7 @@ settings:
         title: 'Menu: Border radius (in px units)'
         title.uk: 'Меню: Закруглення рамки (пікселі)'
         title.de: 'Menü: Randabrundung (in px)'
-        title.zh: '菜单：边框圆角（单位：像素）'
+        title.zh: '菜单：边框圆角（单位：px）'
         type: variable-number
         default: 0
         format: px
@@ -552,14 +556,16 @@ settings:
         title: 'Item: Border radius (in px units)'
         title.uk: 'Елемент: Закруглення рамки (пікселі)'
         title.de: 'Element: Randabrundung (in px)'
-        title.zh: '项目：边框圆角（单位：像素）'
+        title.zh: '项目：边框圆角（单位：px）'
         type: variable-number
         default: 0
         format: px
     -
         id: launchpad
         title: 'New tab view (Launchpad)'
+        title.zh: '新标签页视图（Launchpad 启动台）'
         description: 'Style the toolbar replacing the New tab view'
+        description.zh: '为替换新标签页视图的工具栏设置样式'
         type: heading
         level: 1
         collapsed: true
@@ -575,6 +581,7 @@ settings:
     -
         id: cg-nt-launchpad-item-bg-color
         title: 'Item: Background color'
+        title.zh: '项目：背景颜色'
         type: variable-themed-color
         opacity: true
         format: hex
@@ -592,28 +599,33 @@ settings:
     -
         id: cg-nt-launchpad-cols-desktop
         title: 'Number of columns on desktop'
+        title.zh: '桌面端列数'
         type: variable-number
         default: 2
     -
         id: cg-nt-launchpad-cols-mobile
         title: 'Number of columns on mobile 📱'
+        title.zh: '移动端列数 📱'
         type: variable-number
         default: 2
     -
         id: cg-nt-launchpad-max-width
         title: 'Max width (in px units)'
+        title.zh: '最大宽度（单位：px）'
         type: variable-number
         default: 0
         format: px
     -
         id: cg-nt-launchpad-item-font-size
         title: 'Item: Font size (in em units)'
+        title.zh: '项目：字体大小（单位：em）'
         type: variable-number
         default: 0
         format: em
     -
         id: cg-nt-launchpad-item-icon-size
         title: 'Item: Icon size (in px units)'
+        title.zh: '项目：图标大小（单位：px）'
         type: variable-number
         default: 0
         format: px
@@ -629,6 +641,7 @@ settings:
     -
         id: cg-nt-launchpad-item-border-radius
         title: 'Item: Border radius (in px units)'
+        title.zh: '项目：边框圆角（单位：px）'
         type: variable-number
         default: 0
         format: px
@@ -658,7 +671,7 @@ settings:
         default-dark: '#'
     -
         id: cg-nt-quick-tools-item-text-color
-        title: '🎨 Text + Icon color'
+        title: '🎨 Icon + text color'
         title.uk: '🎨 Кольори тексту та іконки'
         title.de: '🎨 Text + Symbol-Farbe'
         title.zh: '🎨 文本和图标颜色'
@@ -669,7 +682,7 @@ settings:
         default-dark: '#'
     -
         id: cg-nt-quick-tools-item-text-color-hover
-        title: '🎨 Text + Icon color (on hover)'
+        title: '🎨 Icon + text color (on hover)'
         title.uk: '🎨 Кольори тексту та іконки (при наведенні)'
         title.de: '🎨 Text + Symbol-Farbe (beim Überfahren mit der Maus)'
         title.zh: '🎨 文字 + 图标颜色（悬停时）'
@@ -692,7 +705,7 @@ settings:
         title: '📐 Icon size (in px units)'
         title.uk: '📐 Розмір іконки (пікселі)'
         title.de: '📐 Symbolgröße (in px)'
-        title.zh: '📐 图标大小（单位：像素）'
+        title.zh: '📐 图标大小（单位：px）'
         type: variable-number
         default: 18
         format: px
@@ -701,7 +714,7 @@ settings:
         title: '😎 Border radius (in px units)'
         title.uk: '😎 Закруглення рамки (пікселі)'
         title.de: '😎 Randabrundung (in px)'
-        title.zh: '😎 边框圆角（单位：像素）'
+        title.zh: '😎 边框圆角（单位：px）'
         type: variable-number
         default: 4
         format: px
@@ -795,7 +808,7 @@ settings:
         title.uk: 'Колір рамки'
         title.de: 'Rand-Farbe'
         title.zh: '边框颜色'
-        description: 'Top + Bottom borders. The "border" style must be added to the toolbar first.'
+        description: 'Color of toolbar borders. The "border" style must be added to the toolbar first.'
         description.uk: 'Верхня та нижня рамки. Стиль "рамка" повинен бути додан до панелі.'
         description.de: 'Obere + untere Ränder'
         description.zh: '上下边框'
@@ -818,7 +831,7 @@ settings:
         title: 'Top sticky offset on desktop (in px units)'
         title.uk: "Верхнє липке зміщення на комп'ютері (пікселі)"
         title.de: 'Oberer Sticky-Offset am PC (in rem-Einheiten) 📱'
-        title.zh: '桌面端顶部 Sticky 附着的偏移量（单位：像素）'
+        title.zh: '桌面端顶部 Sticky 附着的偏移量（单位：px）'
         description: "For some themes, the toolbar doesn't quite stick to the top (larger = further from the top). Note, this will not apply when Position = Top (fixed)."
         description.uk: 'У деяких темах панель не прилипає до верху (чим більше значення, тим далі від верху). Це не застосовується, якщо позиція = Фіксовано зверху.'
         description.de: 'Bei einigen Themes klebt die Symbolleiste nicht ganz oben (größer = weiter von oben). Beachten Sie, dass dies nicht gilt, wenn Position = Oben (fixiert)'
@@ -882,8 +895,10 @@ settings:
     -    
         id: cg-nt-tbar-autohide-opacity
         title: 'Autohide opacity'
+        title.zh: '自动隐藏的透明度'
         title.uk: 'Прозорість автоприховування'
         description: 'When autohide style is enabled, how transparent the toolbar is when hidden'
+        description.zh: '当启用自动隐藏样式时，隐藏状态的工具栏的透明度'
         description.uk: 'Якщо автоприховування увімкнено, наскільки прозорою буде панель, коли її приховано'
         type: variable-number-slider
         default: 0
@@ -895,7 +910,7 @@ settings:
         title: 'Border radius (in px units)'
         title.uk: 'Закруглення рамок (пікселі)'
         title.de: 'Rahmenrundung (in px)'
-        title.zh: '边框圆角（单位：像素）'
+        title.zh: '边框圆角（单位：px）'
         type: variable-number
         default: 0
         format: px
@@ -932,44 +947,30 @@ settings:
     -
         id: toolbar-bottom-tbar
         title: 'Toolbars (bottom)'
+        title.zh: '底部工具栏'
         title.uk: 'Панелі (внизу)'
         description: 'Styles for toolbars in the "bottom" position'
+        description.zh: '位于「底部」位置的工具栏样式'
         description.uk: 'Стилі панелей у положенні "Внизу"'
         type: heading
         level: 1
         collapsed: true
     -
-        id: cg-nt-tbar-bottom-border-radius
-        title: 'Toolbar border radius (in px units)'
-        title.uk: 'Радіус закруглення рамки панелі (пікселі)'
-        description: 'How rounded the toolbar is. The higher the number, the more rounded.'
-        description.uk: 'Закруглення панелі. Чим більше число, тим більше округлення.'
-        type: variable-number
-        default: 5
-        format: px
-    -
-        id: cg-nt-tbar-bottom-padding-x-desktop
-        title: 'Left + Right toolbar padding on desktop (in px units)'
-        title.uk: "Лівий та правий відступи на комп'ютері (пікселі)"
-        description: 'Spacing around the toolbar.'
-        description.uk: 'Проміжки навколо панелі.'
-        type: variable-number
-        default: 32
-        format: px
-    -
-        id: cg-nt-tbar-bottom-padding-x-mobile
-        title: 'Left + Right toolbar padding on mobile (in px units) 📱'
-        title.uk: 'Лівий та правий відступи на мобільному (пікселі) 📱'
-        description: 'Spacing around the toolbar.'
-        description.uk: 'Проміжки навколо панелі.'
-        type: variable-number
-        default: 24
-        format: px
+        id: toolbar-bottom-positioning
+        title: '↳ ↕ Positioning'
+        title.uk: '↳ ↕ Позиціонування'
+        title.de: '↳ ↕ Positionierung'
+        title.zh: '↳ ↕ 位置'
+        type: heading
+        level: 2
+        collapsed: true
     -
         id: cg-nt-tbar-bottom-pos-y-desktop
         title: 'Y position on desktop (in em units)'
+        title.zh: '桌面端 Y 轴位置（单位：em）'
         title.uk: "Позиція Y на комп'ютері (em)"
         description: 'Distance from bottom edge.'
+        description.zh: '距编辑器视图底部的距离。'
         description.uk: 'Відстань від нижнього краю.'
         type: variable-number
         default: 4.25
@@ -977,17 +978,269 @@ settings:
     -
         id: cg-nt-tbar-bottom-pos-y-mobile
         title: 'Y position on mobile (in em units) 📱'
+        title.zh: '移动端 Y 轴位置（单位：em）📱'
         title.uk: 'Позиція Y на мобільному (em) 📱'
         description: "Distance from bottom edge."
+        description.zh: '距编辑器视图底部的距离。'
         description.uk: 'Відстань від нижнього краю.'
         type: variable-number
         default: 1
         format: em
     -
+        id: toolbar-bottom-sizing-spacing
+        title: '↳ 📐 Sizing and Spacing'
+        title.uk: '↳ 📐 Розміри та інтервали'
+        title.de: '↳ 📐 Größe und Abstand'
+        title.zh: '↳ 📐 尺寸和间距'
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: cg-nt-tbar-bottom-padding-x-desktop
+        title: 'Left + Right toolbar padding on desktop (in px units)'
+        title.zh: '桌面端左右工具栏的内边距（单位：px）'
+        title.uk: "Лівий та правий відступи на комп'ютері (пікселі)"
+        description: 'Spacing around the toolbar.'
+        description.zh: '工具栏周围的间距。'
+        description.uk: 'Проміжки навколо панелі.'
+        type: variable-number
+        default: 32
+        format: px
+    -
+        id: cg-nt-tbar-bottom-padding-x-mobile
+        title: 'Left + Right toolbar padding on mobile (in px units) 📱'
+        title.zh: '移动端左右工具栏的内边距（单位：px）📱'
+        title.uk: 'Лівий та правий відступи на мобільному (пікселі) 📱'
+        description: 'Spacing around the toolbar.'
+        description.zh: '工具栏周围的间距。'
+        description.uk: 'Проміжки навколо панелі.'
+        type: variable-number
+        default: 24
+        format: px
+    -
+        id: toolbar-bottom-styles
+        title: '↳ 😎 Style'
+        title.uk: '↳ 😎 Стиль'
+        title.de: '↳ 😎 Stil'
+        title.zh: '↳ 😎 样式'
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: cg-nt-tbar-bottom-border-radius
+        title: 'Toolbar border radius (in px units)'
+        title.zh: '工具栏边框圆角（单位：px）'
+        title.uk: 'Радіус закруглення рамки панелі (пікселі)'
+        description: 'How rounded the toolbar is. The higher the number, the more rounded.'
+        description.zh: '工具栏的圆角程度。数值越高，圆角越明显。'
+        description.uk: 'Закруглення панелі. Чим більше число, тим більше округлення.'
+        type: variable-number
+        default: 5
+        format: px
+    -
+        id: toolbar-text-tbar
+        title: 'Toolbars (text)'
+        title.zh: '工具栏（文本）'
+        description: 'Styles for text toolbars'
+        description.zh: '文本工具栏的样式'
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: toolbar-text-colors
+        title: '↳ 🎨 Colors'
+        title.uk: '↳ 🎨 Кольори'
+        title.de: '↳ 🎨 Farben'
+        title.zh: '↳ 🎨 颜色'
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: cg-nt-tbar-text-border-color
+        title: 'Border color'
+        title.uk: 'Колір рамки'
+        title.de: 'Rand-Farbe'
+        title.zh: '边框颜色'
+        description: 'Color of toolbar border. The "border" style must be added to the toolbar first.'
+        description.uk: 'Верхня та нижня рамки. Стиль "рамка" повинен бути додан до панелі.'
+        description.de: 'Obere + untere Ränder'
+        description.zh: '工具栏边框的颜色。需要先在工具栏添加「边框」样式。'
+        type: variable-themed-color
+        opacity: true
+        format: hex
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: cg-nt-tbar-text-item-bg-color-hover
+        title: 'Item: Background color (on hover)'
+        title.uk: 'Колір фону (при наведенні)'
+        title.de: 'Hintergrundfarbe (beim Überfahren mit der Maus)'
+        title.zh: '项目：鼠标悬停时的背景颜色'
+        type: variable-themed-color
+        opacity: true
+        format: hex
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: cg-nt-tbar-text-item-button-bg-color
+        title: 'Item: Background color (for button style)'
+        title.uk: 'Колір фону (стиль кнопки)'
+        title.de: 'Hintergrundfarbe (für Schaltflächen)'
+        title.zh: '项目：按钮样式的背景颜色'
+        type: variable-themed-color
+        opacity: true
+        format: hex
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: cg-nt-tbar-text-item-text-color
+        title: 'Icon + text color'
+        title.uk: 'Колір тексту'
+        title.de: 'Textfarbe'
+        title.zh: '图标和文本颜色'
+        type: variable-themed-color
+        opacity: true
+        format: hex
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: cg-nt-tbar-text-item-text-color-hover
+        title: 'Icon + text color (on hover)'
+        title.uk: 'Колір тексту (при наведенні)'
+        title.de: 'Textfarbe (beim Überfahren mit der Maus)'
+        title.zh: '图标和文本颜色（悬停时）'
+        type: variable-themed-color
+        opacity: true
+        format: hex
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: tbar-text-item-sizing-spacing
+        title: '↳ 📐 Sizing and Spacing'
+        title.uk: '↳ 📐 Розміри та інтервали'
+        title.de: '↳ 📐 Größe und Abstände'
+        title.zh: '↳ 📐 大小和间距'
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: cg-nt-tbar-text-max-width-desktop
+        title: 'Max width on desktop (in px units)'
+        title.zh: '桌面端最大宽度（单位：px）'
+        description: 'How wide the toolbar is allowed to be.'
+        description.zh: '工具栏允许的最大宽度。'
+        type: variable-number
+        default: 900
+        format: px
+    -
+        id: cg-nt-tbar-text-max-width-tablet
+        title: 'Max width on tablets (in px units)'
+        title.zh: '平板端最大宽度（单位：px）'
+        description: 'How wide the toolbar is allowed to be.'
+        description.zh: '工具栏允许的最大宽度。'
+        type: variable-number
+        default: 650
+        format: px
+    -
+        id: cg-nt-tbar-text-margin-x
+        title: 'Left + Right margin (in em units)'
+        title.zh: '左右边距（单位：em）'
+        type: variable-number
+        default: 0.5
+        format: em
+    -
+        id: cg-nt-tbar-text-margin-y
+        title: 'Top + Bottom margin (in em units)'
+        title.uk: 'Верхній та нижній відступи (em)'
+        title.de: 'Oberer + unterer Abstand (in em-Einheiten)'
+        title.zh: '上下边距（单位：em）'
+        type: variable-number
+        default: 0.5
+        format: em
+    -
+        id: cg-nt-tbar-text-item-font-size
+        title: 'Item: Font size (in em units)'
+        title.uk: 'Розмір шрифту (em)'
+        title.de: 'Schriftgröße (in em)'
+        title.zh: '字体大小（单位：em）'
+        type: variable-number
+        default: 0.875
+        format: em
+    -
+        id: cg-nt-tbar-text-item-icon-size
+        title: 'Item: Icon size (in px units)'
+        title.uk: 'Розмір іконки (пікселі)'
+        title.de: 'Symbolgröße (in px)'
+        title.zh: '图标大小（单位：px）'
+        type: variable-number
+        default: 18
+        format: px
+    -
+        id: cg-nt-tbar-text-item-padding-x
+        title: 'Item: Left + Right padding (in em units)'
+        title.uk: 'Лівий та правий відступи (em)'
+        title.de: 'Linker + rechter Abstand (in em)'
+        title.zh: '项目：左右内边距（单位：em）'
+        type: variable-number
+        default: 0.75
+        format: em
+    -
+        id: cg-nt-tbar-text-item-padding-y
+        title: 'Item: Top + Bottom padding (in em units)'
+        title.uk: 'Верхній та нижній відступи (em)'
+        title.zh: '项目：上下内边距（单位：em）'
+        title.de: 'Oberer + unteren Abstand (in em)'
+        type: variable-number
+        default: 0.5
+        format: em
+    -
+        id: toolbar-text-styles
+        title: '↳ 😎 Style'
+        title.uk: '↳ 😎 Стиль'
+        title.de: '↳ 😎 Stil'
+        title.zh: '↳ 😎 样式'
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: cg-nt-tbar-text-border-radius
+        title: 'Toolbar border radius (in px units)'
+        title.zh: '工具栏边框圆角（单位：px）'
+        title.uk: 'Радіус закруглення рамки панелі (пікселі)'
+        description: 'How rounded the toolbar is. The higher the number, the more rounded.'
+        description.zh: '工具栏的圆角程度。数值越高，圆角越明显。'
+        description.uk: 'Закруглення панелі. Чим більше число, тим більше округлення.'
+        type: variable-number
+        default: 5
+        format: px
+    -
+        id: cg-nt-tbar-text-shadow
+        title: 'Shadow'
+        title.zh: '阴影'
+        description: 'Shadow behind the text toolbar'
+        description.zh: '文本工具栏背后的阴影'
+        type: variable-select
+        default: 'var(--shadow-s)'
+        options:
+            - 
+                label: 'None'
+                label.zh: '无'
+                value: 'none'
+            - 
+                label: 'Input style'
+                label.zh: '输入框样式'
+                value: 'var(--input-shadow)'
+            - 
+                label: 'Small style'
+                label.zh: '小型样式'
+                value: 'var(--shadow-s)'
+    -
         id: ui
         title: 'Other UI'
+        title.zh: '其他 UI'
         title.uk: 'Додатковий UI'
         description: 'Styles for other Note Toolbar UI elements'
+        description.zh: '其他 Note Toolbar UI 元素的样式'
         description.uk: 'Стилі додаткових елементів Note Toolbar'
         type: heading
         level: 1
@@ -995,10 +1248,15 @@ settings:
     -
         id: cg-nt-ui-modal-width
         title: 'Modal width on desktop (in px units)'
+        title.zh: '桌面端 Modal 模态框宽度（单位：px）'
         title.uk: "Ширина модального вікна на комп'ютері (пікселі)"
         type: variable-number
         default: 700
         format: px
+ */
+
+/*
+ * Body (CSS Variables)
  */
 
 body {
@@ -1015,6 +1273,22 @@ body {
     --cg-nt-tbar-bottom-padding-x-mobile: var(--size-4-6);
     --cg-nt-tbar-bottom-pos-y-desktop: 4.25em;
     --cg-nt-tbar-bottom-pos-y-mobile: 1em;
+    --cg-nt-tbar-text-item-font-size: var(--metadata-label-font-size);
+    --cg-nt-tbar-text-item-icon-size: var(--icon-size);
+    --cg-nt-tbar-text-item-padding-x: 0.75em;
+    --cg-nt-tbar-text-item-padding-y: 0.5em;
+    --cg-nt-tbar-text-border-color: var(--hr-color);
+    --cg-nt-tbar-text-border-radius: 5px;
+    --cg-nt-tbar-text-item-button-bg-color: var(--interactive-normal);
+    --cg-nt-tbar-text-item-bg-color-hover: var(--background-modifier-hover);
+    --cg-nt-tbar-text-item-text-color: var(--metadata-label-text-color);
+    --cg-nt-tbar-text-item-text-color-hover: var(--text-normal);
+    --cg-nt-tbar-text-margin-x: 0.5em;
+    --cg-nt-tbar-text-margin-y: 0.5em;
+    --cg-nt-tbar-text-max-width-desktop: 900px;
+    --cg-nt-tbar-text-max-width-phone: calc(100vw - 32px);
+    --cg-nt-tbar-text-max-width-tablet: 650px;
+    --cg-nt-tbar-text-shadow: var(--shadow-s);
     --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1);
     --cg-nt-tbar-top-sticky-pos-mobile: -1rem;
     --cg-nt-fab-autohide-opacity: 0;
@@ -1081,12 +1355,72 @@ body {
     &.is-mobile {
         --cg-nt-fab-border-color: var(--interactive-accent);
     }
+
+    /*
+     * Glass effect variables (thanks to @aaaaalexis)
+     * Licensed under the MIT License; see the LICENSE file.
+     */
+    --ntb-anim-duration-moderate: 320ms;
+    --ntb-blur-s: blur(2px) saturate(1.5) brightness(1.05);
+    &.theme-light {
+        --ntb-liquid-glass-background: rgba(255, 255, 255, 0.5);
+        --ntb-shadow-base: inset 1px 1px 2px rgba(255, 255, 255, 0.5), inset -1px -1px 2px rgba(255, 255, 255, 0.5), inset 0 4px 16px rgba(255, 255, 255, 0.025);
+        --ntb-shadow-xs: var(--ntb-shadow-base), inset 0 -8px 48px rgba(0, 0, 0, 0.02), 0 0 8px rgba(0, 0, 0, 0.025), 0 4px 48px rgba(0, 0, 0, 0.15);
+    }
+    &.theme-dark {
+        --ntb-liquid-glass-background: rgba(255, 255, 255, 0.075);
+        --ntb-shadow-base: inset 1px 1.5px 1px -1px rgba(255, 255, 255, 0.2), inset -1px -1.5px 1px -1px rgba(255, 255, 255, 0.15), inset 0 4px 16px rgba(255, 255, 255, 0.025);
+        --ntb-shadow-xs: var(--ntb-shadow-base);
+    }
+
+    /*
+     * Default adjustments for various themes
+     */
+    &[data-ntb-csstheme="Baseline"] {
+        --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 16px);
+        --cg-nt-tbar-top-sticky-pos-mobile: calc(1rem * -1 + 1px);
+    }
+    &[data-ntb-csstheme="Cupertino"] {
+        --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 24px);
+        --ntb-anim-duration-moderate: var(--anim-duration-moderate);
+        /* --ntb-blur-s: var(--blur-s); */
+        --ntb-liquid-glass-background: var(--liquid-glass-background);
+        --ntb-shadow-base: var(--shadow-base);
+        --ntb-shadow-xs: var(--shadow-xs);
+    }
+    &[data-ntb-csstheme="Baseline"], &[data-ntb-csstheme="Cupertino"] {        
+        --cg-nt-fab-pos-x-mobile: var(--navbar-side-padding);
+        &.is-phone {
+            --cg-nt-fab-pos-y-mobile: calc(48px + var(--navbar-bottom-padding) + 1rem);
+            --cg-nt-tbar-bottom-pos-y-mobile: calc(48px + var(--navbar-bottom-padding) + 1rem);
+            --cg-nt-tbar-top-sticky-pos-mobile: calc(98px);
+        }
+        &.is-mobile.theme-dark {
+            --cg-nt-tbar-bg-color: unset !important;
+        }
+    }
+    &[data-ntb-csstheme="Minimal"] {
+        --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 16px);
+    }
+    &[data-ntb-csstheme="Velocity"] {
+        --cg-nt-tbar-top-sticky-pos-desktop: calc(var(--header-height) * -1 + 22px);      
+    }
+
+    /* class is added in the Toggle Base toolbar command */
+    &.ntb-hide-bases-header {
+        .bases-header {
+            display: none !important;
+        }
+    }
+
 }
 
 .metadata-container {
     margin-block-end: 0;
 }
-
+/*
+ * Callouts
+ */
 .cm-embed-block:has(> div > .callout[data-callout="note-toolbar"]) {
     &:hover {
         box-shadow: none !important; /* hide the border on hover of the toolbar callout */
@@ -1095,7 +1429,6 @@ body {
         }
     }
 }
-
 .cm-embed-block:has(> div > .callout[data-callout="note-toolbar"][data-callout-metadata*="sticky"]) {
     &:not([data-tbar-position="bottom"]) {
         position: sticky;
@@ -1106,7 +1439,6 @@ body {
         }
     }
 }
-
 .is-mobile .cm-embed-block:has(> div > .callout[data-callout="note-toolbar"][data-callout-metadata*="mstcky"]) {
     position: sticky;
     z-index: 2;
@@ -1116,29 +1448,30 @@ body {
         top: var(--cg-nt-tbar-top-sticky-pos-mobile);
     }
 }
-
 /* default, if not specified */
 .cm-embed-block:has(> div > .callout[data-callout="note-toolbar"][data-callout-metadata*="nosticky"]) {
     top: inherit;
     position: relative;
 }
-
 .cm-embed-block:has(> div > .callout[data-callout="note-toolbar"][data-callout-metadata*="mnstcky"]) {
     .is-mobile &, .is-phone & {
         top: inherit;
         position: relative;
     }
 }
-
 .cm-embed-block[data-tbar-position="bottom"],
 .cm-embed-block[data-tbar-position="top"] {
     & .callout[data-callout="note-toolbar"] {
         max-width: var(--file-line-width);
     }
 }
-
+/* fixes header div getting squished when the toolbar's at the top position */
+.view-header:has(+ [data-tbar-position="top"]) {
+    min-height: var(--header-height);
+}
 .callout[data-callout="note-toolbar-output"] {
     background-color: var(--background-primary) !important;
+    background-image: unset !important;
     margin: 0em !important;
     padding: 0em;
     &:has(> .callout-title) {
@@ -1155,10 +1488,21 @@ body {
         & .callout-icon {
             display: none;
         }
+        & .callout-title-inner {
+            color: var(--background-secondary);
+        }
     }
 }
-
+body[data-ntb-csstheme="Cupertino"].is-mobile.theme-dark {
+    & .callout[data-callout="note-toolbar-output"] {
+        background-color: #000 !important;
+    }
+}
 .callout[data-callout="note-toolbar"] {
+
+    /* fix: (#378) reset CSS rules applied by themes (e.g., Velocity) */
+    background-image: unset !important;
+    box-shadow: unset !important;
 
     background-color: var(--cg-nt-tbar-bg-color) !important;
     border-radius: var(--cg-nt-tbar-border-radius);
@@ -1173,6 +1517,9 @@ body {
 
     & .callout-content {
 
+        /* fix: (#378) reset CSS rules applied by themes (e.g., Primary) */
+        box-shadow: unset !important;
+
         & ul {
             display: flex;
             flex-wrap: wrap;
@@ -1181,6 +1528,9 @@ body {
             padding-inline-start: 0;
             [data-tbar-position="bottom"] & {
                 margin: var(--cg-nt-tbar-margin-y);
+            }
+            [data-tbar-position="text"] & {
+                margin: var(--cg-nt-tbar-text-margin-y) var(--cg-nt-tbar-text-margin-x);
             }
         }
     
@@ -1191,6 +1541,14 @@ body {
             padding: 0;
             margin: 0;
             
+            &[aria-disabled="true"] {
+                color: var(--text-muted);
+                opacity: 0.4;
+                > span:hover {
+                    background-color: unset;
+                    cursor: default;
+                }
+            }
             & .list-bullet {
                 display: none; /* remove for reading mode */
             }
@@ -1337,6 +1695,10 @@ body {
             border: solid 1px var(--cg-nt-tbar-border-color);
             border-radius: var(--cg-nt-tbar-bottom-border-radius);
         }
+        [data-tbar-position="text"] & {
+            border: solid 1px var(--cg-nt-tbar-text-border-color);
+            border-radius: var(--cg-nt-tbar-text-border-radius);
+        }
     }
 
     &[data-callout-metadata*="mbrder"] {
@@ -1347,6 +1709,10 @@ body {
             [data-tbar-position="bottom"] & {
                 border: solid 1px var(--cg-nt-tbar-border-color);
                 border-radius: var(--cg-nt-tbar-bottom-border-radius);
+            }
+            [data-tbar-position="text"] & {
+                border: solid 1px var(--cg-nt-tbar-text-border-color);
+                border-radius: var(--cg-nt-tbar-text-border-radius);
             }
         }
     }
@@ -1415,6 +1781,12 @@ body {
         }
     }
 
+    &[data-callout-metadata*="inactive"] {
+        body:not(.is-mobile):not(.is-focused) &, .workspace-leaf:not(.mod-active) & {
+            display: none;
+        }
+    }
+
     &[data-callout-metadata*="left"] ul {
         justify-content: left;
     }
@@ -1462,6 +1834,9 @@ body {
         & a, span.external-link {
             background-color: var(--cg-nt-item-button-bg-color);
             box-shadow: var(--input-shadow);
+            [data-tbar-position="text"] & {
+                background-color: var(--cg-nt-tbar-text-item-button-bg-color);
+            }
         }
     }
 
@@ -1471,6 +1846,9 @@ body {
             & a, span.external-link {
                 background-color: var(--cg-nt-item-button-bg-color);
                 box-shadow: var(--input-shadow);
+                [data-tbar-position="text"] & {
+                    background-color: var(--cg-nt-tbar-text-item-button-bg-color);
+                }
             }
         }
     }
@@ -1534,7 +1912,30 @@ body {
     }
     
 }
-
+/* Liquid Glass effect for the Cupertino theme, thanks to @aaaaalexis */
+/* Licensed under the MIT License; see the LICENSE file */
+body .callout[data-callout="note-toolbar"][data-callout-metadata*="glass"],
+body.is-mobile .callout[data-callout="note-toolbar"][data-callout-metadata*="mgls"],
+body[data-ntb-csstheme="Cupertino"] .callout[data-callout="note-toolbar"] {
+    background: unset !important;
+    mix-blend-mode: normal !important;
+    & ul {
+        gap: var(--size-4-2);
+        & a, span.external-link {
+            background-color: var(--ntb-liquid-glass-background) !important;
+            backdrop-filter: var(--ntb-blur-s);
+            border: var(--border-width) solid var(--background-modifier-border);
+            border-radius: 32px;
+            box-shadow: var(--ntb-shadow-xs);
+            transition: var(--ntb-anim-duration-moderate);
+        }
+        @media (hover: hover) {
+            & a:hover, span.external-link:hover {
+                box-shadow: none;
+            }
+        }
+    }
+}
 /* user feedback that toolbar interaction is not available; workaround for #69 */
 body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
     & .cg-note-toolbar-callout[data-callout="note-toolbar"] {
@@ -1544,7 +1945,9 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         }
     }
 }
-
+/*
+ * FAB (Floating Action Button)
+ */
 .cg-note-toolbar-fab-container {
     & button[data-fab-metadata*="autohide"] {
         box-shadow: none;
@@ -1565,23 +1968,21 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
             border: solid 1px var(--cg-nt-fab-border-color);
         }
     }
+    & button[data-fab-metadata*="inactive"] {
+        body:not(.is-mobile):not(.is-focused) &, .workspace-leaf:not(.mod-active) & {
+            display: none;
+        }
+    }
 }
-
-/*************************************************************************
- * Supporting Toolbar Styles
- *************************************************************************/
-
-#cg-note-toolbar-marker {
-    visibility: hidden;
-}
-
 .cg-note-toolbar-fab-container {
     bottom: var(--cg-nt-fab-pos-y-desktop);
     position: absolute;
     padding: 0;
     left: var(--cg-nt-fab-pos-x-desktop);
     right: unset;
-    z-index: var(--layer-status-bar);
+    /* fix: puts toolbar above popovers + Hover Editor plugin */
+    z-index: calc(var(--layer-slides) - 1);
+
     &[data-tbar-position="fabr"] {
         left: unset;
         right: var(--cg-nt-fab-pos-x-desktop);
@@ -1596,20 +1997,17 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         }
     }
 }
-
 /* user feedback that toolbar interaction is not available; workaround for #69 */
 body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
     & .cg-note-toolbar-fab-container {
         opacity: var(--cg-nt-fab-inactive-opacity);
     }
 }
-
 @keyframes cg-note-toolbar-fab-anim {
     0% { transform: scale(1); }
     50% { transform: scale(1.75); }
     100% { transform: scale(1.5); }
 }
-
 .cg-note-toolbar-fab {
     aspect-ratio: 1;
     background-color: var(--cg-nt-fab-bg-color-desktop) !important;
@@ -1661,7 +2059,34 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         cursor: pointer;
     }
 }
-
+/* Liquid Glass effect for the Cupertino (thanks to @aaaaalexis) */
+/* Licensed under the MIT License; see the LICENSE file */
+body button.cg-note-toolbar-fab[data-fab-metadata*="glass"],
+body.is-mobile button.cg-note-toolbar-fab[data-fab-metadata*="mgls"],
+body[data-ntb-csstheme="Cupertino"] button.cg-note-toolbar-fab {
+    background-color: var(--ntb-liquid-glass-background) !important;
+    backdrop-filter: var(--ntb-blur-s) !important;
+    border: var(--border-width) solid var(--background-modifier-border);
+    box-shadow: var(--ntb-shadow-xs);
+    transition: var(--ntb-anim-duration-moderate);
+    & svg {
+        color: var(--text-normal);
+    }
+    @media (hover: hover) {
+        &:hover {
+            box-shadow: none;
+        }
+    }
+    .is-mobile & {
+        &:is(:active, :hover, :focus-visible) {
+            background-color: var(--ntb-liquid-glass-background) !important;
+            color: var(--text-normal) !important;
+        }
+    }
+}
+/*
+ * Toolbar Container
+ */
 .cg-note-toolbar-bar-container {
     border-radius: var(--cg-nt-tbar-border-radius);
     /* fix: (#90) box-shadow appearing over top of text */
@@ -1689,7 +2114,12 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         padding: var(--file-margins);
         padding-bottom: 0;
         padding-top: 0;
-        z-index: var(--layer-status-bar);
+        /* fix: puts toolbar above popovers + Hover Editor plugin */
+        z-index: calc(var(--layer-slides) - 1);
+        body[data-ntb-csstheme="Border"] & {
+            /* fix: (#429) Border theme: Toolbar in Top (fixed) position overlaps the native "Find/Replace" UI */
+            z-index: calc(var(--layer-popover) - 1);
+        }
         &:hover {
             /* undoes fix (#14) which causes a layout shift on hover */
             overflow: visible !important;
@@ -1713,8 +2143,44 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         }
     }
 
-    /* width fix for Minimal theme in props position #204 #216 */
-    &[data-csstheme="Minimal"][data-tbar-position="props"] {
+    &[data-tbar-position="text"] {
+        border-radius: var(--cg-nt-tbar-text-border-radius);
+        box-shadow: var(--cg-nt-tbar-text-shadow);
+        position: absolute;
+        max-width: var(--cg-nt-tbar-text-max-width-desktop);
+        .is-tablet & {
+            max-width: var(--cg-nt-tbar-text-max-width-tablet);
+        }
+        .is-phone & {
+            max-width: var(--cg-nt-tbar-text-max-width-phone);
+        }
+        /* fix: puts toolbar above popovers + Hover Editor plugin */
+        z-index: calc(var(--layer-slides) - 1);
+        & .cg-note-toolbar-callout {
+            margin-bottom: 0;
+            & a, span.external-link {
+                color: var(--cg-nt-tbar-text-item-text-color);
+                font-size: var(--cg-nt-tbar-text-item-font-size);
+                padding: var(--cg-nt-tbar-text-item-padding-y) var(--cg-nt-tbar-text-item-padding-x);
+                & svg {
+                    height: var(--cg-nt-tbar-text-item-icon-size);
+                    width: var(--cg-nt-tbar-text-item-icon-size);
+                }
+            }
+            @media (hover: hover) {
+                & a:hover, span.external-link:hover {
+                    box-shadow: none;
+                    opacity: var(--icon-opacity-hover);
+                    background-color: var(--cg-nt-tbar-text-item-bg-color-hover);
+                    color: var(--cg-nt-tbar-text-item-text-color-hover);
+                }
+            }
+        }
+    }
+}
+/* width fix for Minimal theme in props position #204 #216 */
+body[data-ntb-csstheme="Minimal"] {
+    & .cg-note-toolbar-bar-container[data-tbar-position="props"] {
         .is-readable-line-width & {
             max-width: var(--max-width);
             width: var(--line-width);
@@ -1722,7 +2188,9 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         }
     }
 }
-
+/*
+ * Menu
+ */
 .note-toolbar-menu {
     background-color: var(--cg-nt-menu-bg-color);
     border-color: var(--cg-nt-menu-border-color);
@@ -1758,23 +2226,19 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         background-color: var(--cg-nt-menu-item-bg-color-hover);
     }
 }
-
-/*****************************************************************************
-* Settings Styles (for Note Toolbar Plugin)
-******************************************************************************/
-
+/*
+ * Settings 
+ */
 .setting-item-info {
     & .setting-item-description a:focus-within {
         box-shadow: 0 0 0 2px;
     }
 }
-
 .setting-item-control .clickable-icon:focus-within {
     /* border-radius: var(--input-radius); */
     box-shadow: inset 0 0 0 1px var(--background-modifier-border);
     box-shadow: inset 0 0 0 2px var(--background-modifier-border-focus);
 }
-
 .is-disabled {
     opacity: 0.6;
     & .setting-item-control:focus-within {
@@ -1784,20 +2248,17 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         background-color: initial;
     }
 }
-
 .note-toolbar-setting-plugin-error,
 .note-toolbar-setting-plugin-onboarding {
     padding: 1em !important;
     border-radius: 8px;
 }
-
 .note-toolbar-setting-plugin-error {
     & .setting-item-name {
         color: var(--text-error);
     }
     border: solid 1px var(--text-error) !important;
 }
-
 .note-toolbar-setting-plugin-onboarding {
     border: solid 1px var(--color-accent-1) !important;
     position: relative;
@@ -1810,17 +2271,14 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         }
     }
 }
-
 .note-toolbar-setting-plugin-onboarding-close {
     position: absolute;
     top: 8px;
     right: 8px;
 }
-
 .note-toolbar-setting-item-link-container > .note-toolbar-setting-plugin-error {
     font-size: var(--font-ui-small);
 }
-
 .note-toolbar-setting-toolbar-list {
     border-radius: 8px;
     border: 1px solid var(--background-modifier-border);
@@ -1828,6 +2286,9 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
     padding: 1em 1em;
     .is-mobile & {
         padding: 1em;
+        & .setting-item > .setting-item-control > button {
+            width: unset !important;
+        }
     }
     & .setting-item {
         padding: 0.5em;
@@ -1857,14 +2318,12 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
             }
         }
     }
-} 
-
+}
 .mod-cta .note-toolbar-setting-text-with-icon {
     & svg {
         color: var(--text-on-accent);
     }
 }
-
 .note-toolbar-setting-text-with-icon {
     display: inline-flex;
     column-gap: 0.5em;
@@ -1874,7 +2333,6 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         vertical-align: middle;
     }
 }
-
 .note-toolbar-setting-item {
     border-radius: 8px;
     border: 1px solid var(--background-modifier-border);
@@ -1893,7 +2351,6 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         display: none !important;
     }
 }
-
 .note-toolbar-setting-item-preview-container {
     align-items: center;
     display: flex;
@@ -1915,26 +2372,24 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         display: none !important;
     }
 }
-
-.setting-item {
-    &[data-active="true"] {
-        display: flex !important;
-    }
-    &[data-active="false"] {
-        display: none !important;
+.note-toolbar-setting-ui {
+    .setting-item {
+        &[data-active="true"] {
+            display: flex !important;
+        }
+        &[data-active="false"] {
+            display: none !important;
+        }
     }
 }
-
 .note-toolbar-setting-item-preview-code {
     font-family: var(--font-monospace);
     white-space: normal !important;
     overflow-wrap: anywhere;
 }
-
 .note-toolbar-setting-item-preview .note-toolbar-setting-item-preview-code {
     font-size: var(--font-ui-small); 
 }
-
 .note-toolbar-setting-item-preview {
     display: flex;
     flex-grow: 1;
@@ -1958,6 +2413,7 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
             font-size: var(--font-ui-smaller);
             font-variant: small-caps;
             height: 1em;
+            text-transform: lowercase;
             width: 100%;
             &:before, &:after {
                 content: "";
@@ -2010,7 +2466,6 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         }
     }
 }
-
 .note-toolbar-setting-hotkey,
 .note-toolbar-setting-command-indicator {
     font-size: var(--font-ui-small);
@@ -2024,7 +2479,6 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
     display: flex;
     align-items: center;
 }
-
 .note-toolbar-setting-command-indicator {
     padding: 2px;
     & svg {
@@ -2032,30 +2486,25 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         vertical-align: middle;
     }
 }
-
 .note-toolbar-setting-item-preview-edit-mobile {
     display: flex;
     column-gap: 0.5em;
     justify-content: space-between;
     width: 100%;
 }
-
 .note-toolbar-setting-icon-button-cta {
     & svg {
         color: var(--interactive-accent);
     }
 }
-
 .note-toolbar-setting-item-preview-icon:empty {
     display: none;
 }
-
 .note-toolbar-setting-item-preview-empty,
 .note-toolbar-setting-item-preview-tooltip {
     color: var(--color-base-60);
     font-style: italic;
 }
-
 .note-toolbar-setting-toolbar-list-preview-item {
     align-items: center;
     display: flex;
@@ -2073,7 +2522,6 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         }
     }
 }
-
 .note-toolbar-setting-empty-message {
     align-items: center;
     color: var(--text-muted);
@@ -2089,23 +2537,19 @@ body:not(.is-mobile):not(.is-focused), .workspace-leaf:not(.mod-active) {
         margin: auto;
     }
 }
-
 .note-toolbar-setting-error-message {
     color: var(--text-error);
     padding-bottom: 1em;
 }
-
 .setting-item-control:has(input[type="search"].note-toolbar-setting-error),
 .setting-item-control:has(input[type="text"].note-toolbar-setting-error) {
     flex-wrap: wrap;
 }
-
 input[type="search"].note-toolbar-setting-error,
 input[type="text"].note-toolbar-setting-error,
 .note-toolbar-setting-error textarea {
     box-shadow: 0 0 0 1px var(--text-error);
 }
-
 .note-toolbar-setting-error {
     &.note-toolbar-setting-item-preview {
         border-radius: var(--input-radius);
@@ -2123,7 +2567,6 @@ input[type="text"].note-toolbar-setting-error,
         box-shadow: 0 0 0 1px var(--text-error);
     }
 }
-
 @keyframes note-toolbar-setting-error-grows {
     0% {
       box-shadow: 0 0 0 1px var(--text-error);
@@ -2132,7 +2575,6 @@ input[type="text"].note-toolbar-setting-error,
         box-shadow: 0 0 0 3px var(--text-error);
     }
 }
-  
 @keyframes note-toolbar-setting-error-shrinks {
     0% {
         box-shadow: 0 0 0 3px var(--text-error);
@@ -2141,29 +2583,23 @@ input[type="text"].note-toolbar-setting-error,
         box-shadow: 0 0 0 1px var(--text-error);
     }
 }
-
 .note-toolbar-setting-button {
     border-top: none;
     padding-top: 0 !important;
     padding-bottom: 1em !important;
 }
-
 .note-toolbar-setting-no-border {
     border-top: none !important;
 }
-
 .note-toolbar-setting-top-border {
     border-top: solid 1px var(--background-modifier-border) !important;
 }
-
 .note-toolbar-setting-top-spacing {
     margin-top: 2em !important;
 }
-
 .note-toolbar-setting-bottom-spacing {
     margin-bottom: 2em !important;
 }
-
 .note-toolbar-setting-item-full-width {
     align-items: flex-start;
     flex-direction: column;
@@ -2176,7 +2612,6 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-setting-item-full-width-phone {
     & .setting-item-control > div {
         .is-mobile & {
@@ -2184,7 +2619,6 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-setting-folder-list-item-container {
     display: flex;
     border-top: 1px solid var(--background-modifier-border);
@@ -2206,29 +2640,28 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-setting-items-header {
     border-bottom: 1px solid var(--background-modifier-border) !important;
     border-width: 0 0 var(--border-width) 0 !important;
     margin-bottom: 1em;
 }
-
+.note-toolbar-setting-app-toolbars-container,
 .note-toolbar-setting-callout-container,
 .note-toolbar-setting-contexts-container,
 .note-toolbar-setting-items-container,
 .note-toolbar-setting-mappings-container,
 .note-toolbar-setting-rules-container {
     padding-top: 0.75em;
-    & .setting-item {
-        .is-phone & {
-            flex-direction: unset !important;
-        }
-    }
     & .setting-item-heading {
+        flex-direction: row !important;
         padding: 0.75em 0;
+        & .setting-item-info {
+            cursor: pointer;
+        }
         .is-mobile & {
             & .setting-item-control {
                 gap: var(--size-4-4);
+                width: unset !important;
             }
         }
         .is-phone & {
@@ -2245,6 +2678,7 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
     &[data-active="true"] {
+        & .note-toolbar-setting-items-collapsible-container,
         & .note-toolbar-setting-items-list-container {
             display: inherit !important;
             & .setting-item-name {
@@ -2257,6 +2691,7 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
     &[data-active="false"] {
+        & .note-toolbar-setting-items-collapsible-container,
         & .note-toolbar-setting-items-list-container {
             display: none !important;
         }
@@ -2270,22 +2705,38 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-setting-callout-container,
-.note-toolbar-setting-contexts-container {
-    & .note-toolbar-setting-items-list-container {
-        .setting-item:first-child {
-            padding: 0.75em 0;
-            border-top: 1px solid var(--background-modifier-border);
+.note-toolbar-setting-contexts-container,
+.note-toolbar-setting-mappings-container,
+.note-toolbar-setting-rules-container {
+    & .setting-item {
+        .is-phone & {
+            & .setting-item-control {
+                justify-content: flex-end !important;
+            }
         }
     }
+}
+.note-toolbar-setting-items-container {
+    & .setting-item {
+        .is-phone & {
+            flex-direction: unset !important;
+        }
+    }
+}
+/* collapsible sections - bottom border */
+.note-toolbar-setting-app-toolbars-container,
+.note-toolbar-setting-callout-container,
+.note-toolbar-setting-contexts-container,
+.note-toolbar-setting-mappings-container {
     &[data-active="true"] {
         border-bottom: solid 1px var(--background-modifier-border);
         margin-bottom: 0.75em;
+        & .setting-item-heading {
+            border-bottom: solid 1px var(--background-modifier-border);
+            margin-bottom: 0.75em;
+        }
     }
-}
-
-.note-toolbar-setting-contexts-container {
     &[data-active="false"] {
         & .setting-item-heading {
             border-bottom: solid 1px var(--background-modifier-border);
@@ -2293,7 +2744,6 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 /* fix for mappings heading not being full width */
 .note-toolbar-setting-mappings-container {
     .is-phone & {
@@ -2304,7 +2754,9 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
+.note-toolbar-setting-item-heading-top-spacing {
+    padding-top: 1.5em;
+}
 .is-phone .note-toolbar-setting-items-container,
 .is-phone .note-toolbar-setting-items-list-container {
     & .note-toolbar-setting-button {
@@ -2313,7 +2765,6 @@ input[type="text"].note-toolbar-setting-error,
         }
     }  
 }
-
 .note-toolbar-setting-items-button-container {
     align-items: center !important;
     display: flex;
@@ -2335,7 +2786,6 @@ input[type="text"].note-toolbar-setting-error,
         color: var(--interactive-accent);
     }
 }
-
 .note-toolbar-setting-item-top-container {
     display: flex;
     flex-flow: wrap;
@@ -2344,7 +2794,6 @@ input[type="text"].note-toolbar-setting-error,
         border-bottom: none !important;
     }
 }
-
 .note-toolbar-setting-item-visibility-container {
     display: flex;
     flex-wrap: wrap;
@@ -2353,7 +2802,6 @@ input[type="text"].note-toolbar-setting-error,
         border-bottom: none !important;
     }
 }
-
 .note-toolbar-setting-item-icon {
     padding-top: 0 !important;
     & .setting-item-info {
@@ -2381,7 +2829,573 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
+.note-toolbar-setting-mapping-field {
+    border-top: none !important;
+    padding: 0 !important;
+    & .setting-item-info {
+        display: none;
+    }
+    & .setting-item-control {
+        justify-content: flex-start;
+        .is-mobile & {
+            margin-top: 0 !important;
+        }
+    }
+}
+.note-toolbar-setting-item-field {
+    border-top: none !important;
+    flex-grow: 1;
+    padding-top: 0 !important;
+    .is-mobile & {
+        padding-bottom: 0.75em;            
+    }
+    & .setting-item-info {
+        display: none;
+    }
+    & .setting-item-control {
+        width: 100%;
+        & input[type="text"] {
+            width: 100%;
+        }
+        .is-mobile & {
+            margin-top: 0 !important;
+        }
+    }
+}
+.note-toolbar-setting-item-link-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+    }
+    gap: 0.75em;
+    width: 100%;
+    & .setting-item {
+        padding: 0 !important;
+        & .setting-item-info {
+            display: none;
+        }
+        & .setting-item-control {
+            justify-content: start;
+            .is-mobile & {
+                margin-top: 0 !important;
+            }
+        }
+    }
+}
+.note-toolbar-setting-item-link-field,
+.note-toolbar-setting-item-link-subfield {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 1em;
+    & .setting-item {
+        padding: 0;
+    }
+    & .setting-item-info {
+        display: none;
+    }
+    & .setting-item-control {
+        .is-mobile & {
+            margin-top: 0 !important;
+        }
+    }
+}
+.note-toolbar-setting-subfield-advanced-container {
+    width: 100%;
+}
+.note-toolbar-setting-subfield-advanced {
+    align-items: center !important;
+    display: flex;
+    flex-direction: row !important;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    & .setting-item-info {
+        display: initial !important;
+        & .setting-item-name {
+            cursor: pointer;
+        }
+    }
+    & .setting-item-control {
+        align-items: flex-end !important;
+        width: auto !important;
+        .is-mobile & {
+            margin-top: 0 !important;
+        }
+    }
+}
+.note-toolbar-setting-item-link-advanced {
+    display: none;
+    &[data-active] {
+        display: flex !important;
+    }
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 1em;
+    & .setting-item {
+        border: none;
+        padding: 0;
+    }
+    & .setting-item-info {
+        display: initial !important;
+        & .setting-item-name {
+            font-size: var(--font-ui-small);
+        }
+    }
+    & .setting-item-control {
+        justify-content: end !important;
+        .is-mobile & {
+            margin-top: 0 !important;
+        }
+    }
+}
+.note-toolbar-setting-item-link {
+    width: 100%;
+}
+.note-toolbar-setting-item-field-link {
+    align-items: flex-start;
+    border-top: none !important;
+    flex-direction: column;
+    gap: 0.5em;
+    padding-top: 0 !important;
+    width: 100%;
+    & .setting-item-info {
+        display: none;
+    }
+    & .setting-item-control {
+        align-items: flex-start;
+        flex-direction: column;
+        /* for the advanced settings gear */
+        &.note-toolbar-setting-item-control-advanced {
+            align-items: center;
+            flex-direction: row
+        }
+    };
+    & .setting-item-control, .search-input-container {
+        width: 100%;
+        & input[type="text"] {
+            width: 100%;
+        }
+    }
+    & textarea {
+        height: 4rem;
+        width: 100%;
+    }
+}
+.note-toolbar-setting-focussable-link {
+    &:focus-within {
+        box-shadow: 0 0 0 2px;
+    }
+}
+.note-toolbar-setting-field-help,
+.note-toolbar-setting-field-error {
+    color: var(--text-muted);
+    font-size: var(--font-ui-smaller);
+    line-height: var(--line-height-tight);
+    display: block;
+    text-align: start;
+    & a:focus-within {
+        box-shadow: 0 0 0 2px;
+    }
+    & ol, ul {
+        margin-block-end: var(--font-ui-smaller);
+        padding-inline-start: 1em;
+    }
+    & svg {
+        height: var(--font-ui-smaller);
+        margin-inline-start: 0.25em;
+        width: var(--font-ui-smaller);
+        vertical-align: middle;
+    }
+    &[data-active="false"] {
+        display: none !important;
+    }
+}
+.note-toolbar-setting-tbar-preview {
+    display: flex;
+    gap: 2px 8px;
+    flex-wrap: wrap;
+    & svg {
+        height: var(--font-ui-smaller);
+        width: var(--font-ui-smaller);
+        display: block;
+    }
+    & i {
+        margin-inline-end: 6px;
+    }
+}
+.note-toolbar-setting-tbar-preview-edit {
+    margin-top: 6px;
+}
+.note-toolbar-setting-field-error {
+    color: var(--text-error);
+}
+.note-toolbar-sortablejs-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    & .sortable-chosen {
+        background-color: var(--background-primary);
+    }
+    & .sortable-ghost {
+        & .setting-item {
+            opacity: 0;
+        }
+        background-color: var(--interactive-accent);
+        border-radius: var(--input-radius);
+        opacity: 0.4;
+    }
+    & .sortable-handle {
+        cursor: move;
+        cursor: -webkit-grabbing;
+    }
+    & .sortable-handle:hover {
+        cursor: grab;
+    }
+    & .sortable-handle:active {
+        cursor: grabbing;
+    }
+}
+.note-toolbar-setting-item-delete {
+    padding: 0 8px 0 0;
+    & .setting-item-info {
+        display: none;
+    }
+    & .setting-item-control {
+        .is-mobile & {
+            margin-top: 0 !important;
+        }
+        & button {
+            background: none;
+            box-shadow: none;
+            color: var(--icon-color);
+            gap: var(--size-4-2);
+            padding: var(--size-4-2);
+            &:hover {
+                opacity: var(--icon-opacity-hover);
+                color: var(--icon-color-hover);
+                background-color: var(--background-modifier-hover);
+            }
+            &:focus-visible {
+                border-radius: var(--input-radius);
+                box-shadow: 0 0 0 1px var(--background-modifier-border);
+                box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+            }
+        }
+    }
+    & svg {
+        color: var(--text-error);
+    }
+}
+.note-toolbar-setting-item-visibility {
+    display: flex;
+    & button {
+        font-size: var(--font-ui-smaller);
+    }
+}
+.note-toolbar-setting-item-controls {
+    display: flex;
+    gap: var(--size-4-2);
+    & .setting-item {
+        border-bottom: none !important;
+        padding: 0 !important;
+        & .setting-item-control {
+            .is-mobile & {
+                margin-top: 0 !important;
+            }
+        }
+        & .setting-item-info {
+            display: none;
+        }
+    }
+}
+.note-toolbar-setting-item-visibility-and-controls {
+    border-top: none !important;
+    display: flex;
+    padding-top: 0.75em !important;
+    justify-content: space-between;
+    & .setting-item {
+        padding-bottom: 0 !important;
+        & .setting-item-info {
+            display: none;
+        }
+        .is-mobile & {
+            padding-top: 0 !important;
+        }
+        & .setting-item-control {
+            .is-mobile & {
+                margin-top: 0 !important;
+            }
+            & button {
+                background: none;
+                box-shadow: none;
+                color: var(--icon-color);
+                gap: var(--size-4-2);
+                padding: var(--size-4-2);
+                &:hover {
+                    opacity: var(--icon-opacity-hover);
+                    color: var(--icon-color-hover);
+                    background-color: var(--background-modifier-hover);
+                }
+                &:focus-visible {
+                    border-radius: var(--input-radius);
+                    box-shadow: 0 0 0 1px var(--background-modifier-border);
+                    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+                }
+                & span:last-child {
+                    font-size: var(--font-smaller);
+                }
+            }
+        }
+    }
+    &[data-item-type="break"],
+    &[data-item-type="separator"] {
+        padding-top: 0 !important;
+        & span {
+            align-content: center;
+            color: var(--text-muted);
+            margin-left: 0.25em;
+        }
+    }
+}
+.note-toolbar-setting-item-control-std-with-help {
+    & .setting-item-control {
+        flex-direction: column;
+        align-items: end;
+        max-width: 50%;
+        .is-phone & {
+            max-width: 100%;
+            .search-input-container {
+                width: 100%;
+            }
+        }
+        & .note-toolbar-setting-field-help {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            max-width: 100%;
+            /* don't wrap toolbar previews */
+            & .note-toolbar-setting-tbar-preview {
+                flex-wrap: nowrap;
+                overflow: hidden;
+                position: relative;
+                max-height: calc(var(--line-height-tight) * 1em);
+                max-width: 250px;
+                .is-mobile & {
+                    max-width: inherit;
+                }
+                & .note-toolbar-setting-toolbar-list-preview-item {
+                    & .note-toolbar-setting-item-preview-code {
+                        align-self: flex-start;
+                    }
+                }
+            }
+            /* fade overflow */
+            & .note-toolbar-setting-tbar-preview::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 33%;
+                background: linear-gradient(to right, transparent, var(--modal-background));
+                pointer-events: none;
+            }
+        }
+    }
+}
+.note-toolbar-setting-item-fields {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 0.5em 1em;
+}
+.note-toolbar-setting-item-styles {
+    & > .setting-item-info {
+        align-self: flex-start;
+    }
+}
+.note-toolbar-setting-item-style {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    gap: 0.25em;
+    width: 100%;
+    .setting-item {
+        border-top: none !important;
+        border: dashed 1px var(--pill-color-remove) !important;
+        border-radius: var(--pill-radius);
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-inline: 0.75em 0.25em !important;
+        flex-wrap: nowrap;
+        height: var(--input-height);
+        .is-mobile & {
+            flex-direction: row !important;
+            align-items: center !important;
+        }
+        &:first-child {
+            border: dashed 1px var(--pill-color-remove) !important;
+        }
+        &:last-child {
+            border: none !important;
+            padding: 0em !important;
+            flex: 0 0 100%;
+        }
+        & .setting-item-info {
+            align-self: unset !important;
+            margin-inline-end: 0.25em;
+            color: var(--pill-color);
+            & .setting-item-name {
+                font-size: var(--metadata-input-font-size);
+            }
+        }
+        & .setting-item-control {
+            --icon-size: var(--icon-xs);
+            --icon-stroke: var(--icon-xs-stroke-width);
+            .is-mobile & {
+                margin-top: 0 !important;
+            }
+            .is-phone & {
+                width: inherit !important;
+            }
+            & select.dropdown, 
+            & select.dropdown:active,
+            & select.dropdown:focus {
+                border-radius: 2em;
+                font-size: var(--metadata-input-font-size);
+            }
+        }
+    }
+}
+.note-toolbar-setting-item-suggester-dialog {
+    width: calc(var(--dialog-width) / 1.5);
+    & .suggestion-empty {
+        padding: var(--size-4-4);
+    }
+    & .note-toolbar-item-suggestion {
+        & .note-toolbar-item-suggester-name, svg.svg-icon {
+            color: var(--cg-nt-quick-tools-item-text-color);
+        }
+        & .note-toolbar-item-suggester-name {
+            font-size: var(--cg-nt-quick-tools-item-font-size);
+        }
+        & svg.svg-icon {
+            height: var(--cg-nt-quick-tools-icon-size);
+            width: var(--cg-nt-quick-tools-icon-size);
+        }
+        &.is-selected {
+            background-color: var(--cg-nt-quick-tools-item-bg-color-hover);
+            border-radius: var(--cg-nt-quick-tools-item-border-radius);
+            & .note-toolbar-item-suggester-name, svg.svg-icon {
+                color: var(--cg-nt-quick-tools-item-text-color-hover);
+            }
+        }
+    }
+    & .note-toolbar-setting-plugin-onboarding {
+        margin: var(--size-4-3);
+        margin-bottom: 0;
+    }
+}
+.is-phone .note-toolbar-setting-dialog-phonefix {
+    padding: 1em;
+}
+.note-toolbar-setting-mini-dialog {
+    width: calc(var(--dialog-width) / 1.5);
+}
+.note-toolbar-setting-small-heading {
+    color: var(--color-base-50);
+    font-size: var(--font-ui-smaller);
+    font-variant: small-caps;
+    line-height: 1em;
+    margin-block-end: 0.5em;
+}
+.note-toolbar-setting-spacer {
+    margin-block-start: 2em;    
+}
+.note-toolbar-setting-import-confirm-preview {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 0em 1em 1em 1em;
+    & .note-toolbar-setting-tbar-preview {
+        & svg {
+            height: var(--font-ui-medium);
+            width: var(--font-ui-medium);            
+        }
+    }
+}
+.note-toolbar-setting-import-text-area {
+    border-top: none;
+    .setting-item-info {
+        display: none;
+    }
+    textarea {
+        flex: 1 1 auto;
+        min-height: 16em !important;
+    }
+}
+.note-toolbar-setting-confirm-dialog-buttons {
+    column-gap: 0.5em;
+    display: flex;
+    justify-content: flex-end;
+}
+.note-toolbar-setting-confirm-dialog-note {
+    font-size: var(--font-ui-small);
+}
+.note-toolbar-share-dialog {
+    .setting-item:first-of-type {
+        border-top: none;
+        overflow: hidden;
+        .setting-item-info {
+            overflow: auto;
+            .setting-item-name {
+                font-family: var(--font-monospace) !important;
+                font-size: var(--font-ui-smaller) !important;
+                text-wrap: nowrap !important;
+            }
+        }
+    }
+}
+.note-toolbar-setting-modal-phone-top-inset-fix {
+    .is-phone & {
+        /* fix/workaround for Obsidian v1.5.11 bug: tall modals opened from settings have an inaccessible close button */
+        top: var(--safe-area-inset-top);
+    }
+}
+.note-toolbar-setting-modal-phone-bottom-inset-fix {
+    .is-phone & {
+        padding-bottom: var(--safe-area-inset-bottom);
+    }
+}
+.note-toolbar-setting-modal-container {
+    & .modal-close-button {
+        z-index: 2; /* fix for modal title overlapping close button */
+        /* general ux improvement for small screens */
+        .is-mobile & {
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--radius-xl);
+            inset-inline-end: var(--size-4-3);
+            top: var(--size-4-3);
+        }
+    }
+}
+.vertical-tab-content.note-toolbar-setting-modal {
+    padding-bottom: var(--size-4-5);
+    padding-inline-start: var(--size-4-5);
+    padding-inline-end: var(--size-4-5);
+    .is-phone & {
+        padding-top: 0;
+        padding-bottom: var(--size-4-12);
+    }
+    & .note-toolbar-setting-plugin-onboarding {
+        margin-bottom: 0.75em;
+    }
+}
+/*
+ * Suggesters
+ */
 .note-toolbar-item-suggester-name {
     align-items: center;
     justify-content: space-between;
@@ -2389,7 +3403,6 @@ input[type="text"].note-toolbar-setting-error,
     column-gap: 1em;
     width: 100%;
 }
-
 .note-toolbar-item-suggester-note {
     color: var(--text-muted);
     display: flex;
@@ -2404,17 +3417,14 @@ input[type="text"].note-toolbar-setting-error,
         width: var(--font-ui-smaller) !important;
     }
 }
-
 .note-toolbar-item-suggester-type {
     opacity: 0.4;
 }
-
 .note-toolbar-item-suggestion-container {
     column-gap: 0.5em;
     display: flex;
     width: 100%;
 }
-
 .note-toolbar-item-suggestion {
     align-items: center;
     display: flex;
@@ -2425,7 +3435,29 @@ input[type="text"].note-toolbar-setting-error,
         margin: 0 auto;
     }
 }
-
+.note-toolbar-icon-suggestion {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    & svg {
+        display: block;
+        margin: 0 auto;
+    }
+}
+.note-toolbar-icon-action-button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 1em;
+}
+.note-toolbar-setting-folder-suggestion-item-muted {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    color: var(--text-muted);
+}
+/*
+ * Help
+ */
 .note-toolbar-gallery-item-divider {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -2433,12 +3465,10 @@ input[type="text"].note-toolbar-setting-error,
     font-size: var(--font-ui-small);
     font-weight: var(--font-semibold);
 }
-
 .note-toolbar-gallery-item-suggestion {
     box-shadow: inset 0 0 0 2px var(--background-modifier-border);
     margin-bottom: 0.5em;
 }
-
 .note-toolbar-gallery-view-search {
     & .setting-item-info {
         display: none;
@@ -2454,7 +3484,6 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-card-items {
     align-items: stretch;
     display: flex;
@@ -2464,13 +3493,11 @@ input[type="text"].note-toolbar-setting-error,
     position: relative;
     scroll-behavior: smooth;
 }
-
 .note-toolbar-gallery-card-items {
     border-block-end: solid 1px var(--background-modifier-border);
     padding-bottom: 2em;
     padding-top: 1em;
 }
-
 .note-toolbar-tips-card-items {
     padding-bottom: 2em;
     & .note-toolbar-card-item {
@@ -2485,7 +3512,6 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-view-heading {
     display: flex;
     flex-basis: fit-content;
@@ -2504,18 +3530,15 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-gallery-view-plugin-overview p {
     margin-block-end: 0.25em;
 }
-
 .note-toolbar-gallery-view-cat-title h2 {
     margin-block-end: 0.25em;
     &::after {
         display: none; /* fix for Border theme */
     }
 }
-
 .note-toolbar-gallery-view-note,
 .note-toolbar-gallery-view-cat-description {
     display: flex;
@@ -2530,7 +3553,6 @@ input[type="text"].note-toolbar-setting-error,
         width: 1em;
     }
 }
-
 .note-toolbar-card-item {
     align-items: start;
     box-shadow: var(--input-shadow);
@@ -2622,548 +3644,7 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
-.note-toolbar-icon-suggestion {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    & svg {
-        display: block;
-        margin: 0 auto;
-    }
-}
-
-.note-toolbar-icon-action-button-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 0 1em;
-}
-
-.note-toolbar-setting-folder-suggestion-item-muted {
-    display: flex;
-    gap: 1em;
-    justify-content: space-between;
-    color: var(--text-muted);
-}
-
-.note-toolbar-setting-mapping-field {
-    border-top: none !important;
-    padding: 0 !important;
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        justify-content: flex-start;
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-    }
-}
-
-.note-toolbar-setting-item-field {
-    border-top: none !important;
-    flex-grow: 1;
-    padding-top: 0 !important;
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        width: 100%;
-        & input[type="text"] {
-            width: 100%;
-        }
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-    }
-}
-
-.note-toolbar-setting-item-link-container {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    @media (max-width: 600px) {
-        grid-template-columns: 1fr;
-    }
-    gap: 0.75em;
-    width: 100%;
-    & .setting-item {
-        padding: 0 !important;
-        & .setting-item-info {
-            display: none;
-        }
-        & .setting-item-control {
-            justify-content: start;
-            .is-mobile & {
-                margin-top: 0 !important;
-            }
-        }
-    }
-}
-
-.note-toolbar-setting-item-link-field,
-.note-toolbar-setting-item-link-subfield {
-    display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    column-gap: 1em;
-    row-gap: 1em;
-    & .setting-item {
-        padding: 0;
-    }
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-    }
-}
-
-.note-toolbar-setting-subfield-advanced-container {
-    width: 100%;
-}
-
-.note-toolbar-setting-subfield-advanced {
-    align-items: center !important;
-    display: flex;
-    flex-direction: row !important;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    & .setting-item-info {
-        display: initial !important;
-    }
-    & .setting-item-control {
-        align-items: flex-end !important;
-        width: auto !important;
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-    }
-}
-
-.note-toolbar-setting-item-link-advanced {
-    display: none;
-    &[data-active] {
-        display: flex !important;
-    }
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 1em;
-    & .setting-item {
-        border: none;
-        padding: 0;
-    }
-    & .setting-item-info {
-        display: initial !important;
-        & .setting-item-name {
-            font-size: var(--font-ui-small);
-        }
-    }
-    & .setting-item-control {
-        justify-content: end !important;
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-    }
-}
-
-.note-toolbar-setting-item-link {
-    width: 100%;
-}
-
-.note-toolbar-setting-item-field-link {
-    align-items: flex-start;
-    border-top: none !important;
-    flex-direction: column;
-    gap: 0.5em;
-    padding-top: 0 !important;
-    width: 100%;
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        align-items: flex-start;
-        flex-direction: column;
-        /* for the advanced settings gear */
-        &.note-toolbar-setting-item-control-advanced {
-            align-items: center;
-            flex-direction: row
-        }
-    };
-    & .setting-item-control, .search-input-container {
-        width: 100%;
-        & input[type="text"] {
-            width: 100%;
-        }
-    }
-    & textarea {
-        height: 4rem;
-        width: 100%;
-    }
-}
-
-/* hides the field help text while keeping it tabbable, if the container does not have focus within it
-   CG: commenting as this conflicts with expandable list items, but CSS still might be useful
-.note-toolbar-setting-item:not(:focus-within) .note-toolbar-setting-field-help {
-    clip-path: rect(1px, 1px, 1px, 1px);
-    overflow: hidden;
-    position: absolute;
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-}
-*/
-
-.note-toolbar-setting-focussable-link {
-    &:focus-within {
-        box-shadow: 0 0 0 2px;
-    }
-}
-
-.note-toolbar-setting-field-help,
-.note-toolbar-setting-field-error {
-    color: var(--text-muted);
-    font-size: var(--font-ui-smaller);
-    line-height: var(--line-height-tight);
-    display: block;
-    text-align: start;
-    & a:focus-within {
-        box-shadow: 0 0 0 2px;
-    }
-    & ol, ul {
-        margin-block-end: var(--font-ui-smaller);
-        padding-inline-start: 1em;
-    }
-    & svg {
-        height: var(--font-ui-smaller);
-        margin-inline-start: 0.25em;
-        width: var(--font-ui-smaller);
-        vertical-align: middle;
-    }
-    &[data-active="false"] {
-        display: none !important;
-    }
-}
-
-.note-toolbar-setting-tbar-preview {
-    display: flex;
-    gap: 2px 8px;
-    flex-wrap: wrap;
-    & svg {
-        height: var(--font-ui-smaller);
-        width: var(--font-ui-smaller);
-        display: block;
-    }
-    & i {
-        margin-inline-end: 6px;
-    }
-}
-
-.note-toolbar-setting-tbar-preview-edit {
-    margin-top: 6px;
-}
-
-.note-toolbar-setting-field-error {
-    color: var(--text-error);
-}
-
-.note-toolbar-sortablejs-list {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
-    & .sortable-chosen {
-        background-color: var(--background-primary);
-    }
-    & .sortable-ghost {
-        & .setting-item {
-            opacity: 0;
-        }
-        background-color: var(--interactive-accent);
-        border-radius: var(--input-radius);
-        opacity: 0.4;
-    }
-    & .sortable-handle {
-        cursor: move;
-        cursor: -webkit-grabbing;
-    }
-    & .sortable-handle:hover {
-        cursor: grab;
-    }
-    & .sortable-handle:active {
-        cursor: grabbing;
-    }
-}
-
-.note-toolbar-setting-item-delete {
-    padding: 0 8px 0 0;
-    & .setting-item-info {
-        display: none;
-    }
-    & .setting-item-control {
-        .is-mobile & {
-            margin-top: 0 !important;
-        }
-        & button {
-            background: none;
-            box-shadow: none;
-            color: var(--icon-color);
-            gap: var(--size-4-2);
-            padding: var(--size-4-2);
-            &:hover {
-                opacity: var(--icon-opacity-hover);
-                color: var(--icon-color-hover);
-                background-color: var(--background-modifier-hover);
-            }
-            &:focus-visible {
-                border-radius: var(--input-radius);
-                box-shadow: 0 0 0 1px var(--background-modifier-border);
-                box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
-            }
-        }
-    }
-    & svg {
-        color: var(--text-error);
-    }
-}
-
-.note-toolbar-setting-item-visibility {
-    display: flex;
-    & button {
-        font-size: var(--font-ui-smaller);
-    }
-}
-
-.note-toolbar-setting-item-controls {
-    display: flex;
-    gap: var(--size-4-2);
-    & .setting-item {
-        border-bottom: none !important;
-        padding: 0 !important;
-        & .setting-item-control {
-            .is-mobile & {
-                margin-top: 0 !important;
-            }
-        }
-        & .setting-item-info {
-            display: none;
-        }
-    }
-}
-
-.note-toolbar-setting-item-visibility-and-controls {
-    border-top: none !important;
-    display: flex;
-    padding-top: 0.75em !important;
-    justify-content: space-between;
-    & .setting-item {
-        padding-bottom: 0 !important;
-        & .setting-item-info {
-            display: none;
-        }
-        .is-mobile & {
-            padding-top: 0 !important;
-        }
-        & .setting-item-control {
-            .is-mobile & {
-                margin-top: 0 !important;
-            }
-            & button {
-                background: none;
-                box-shadow: none;
-                color: var(--icon-color);
-                gap: var(--size-4-2);
-                padding: var(--size-4-2);
-                &:hover {
-                    opacity: var(--icon-opacity-hover);
-                    color: var(--icon-color-hover);
-                    background-color: var(--background-modifier-hover);
-                }
-                &:focus-visible {
-                    border-radius: var(--input-radius);
-                    box-shadow: 0 0 0 1px var(--background-modifier-border);
-                    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
-                }
-                & span:last-child {
-                    font-size: var(--font-smaller);
-                }
-            }
-        }
-    }
-    &[data-item-type="break"],
-    &[data-item-type="separator"] {
-        padding-top: 0 !important;
-        & span {
-            align-content: center;
-            color: var(--text-muted);
-            margin-left: 0.25em;
-        }
-    }
-}
-
-.note-toolbar-setting-item-fields {
-    display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
-    gap: 0.5em 1em;
-}
-
-.note-toolbar-setting-item-styles {
-    & > .setting-item-info {
-        align-self: flex-start;
-    }
-}
-
-.note-toolbar-setting-item-style {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: end;
-    gap: 0.25em;
-    width: 100%;
-    .setting-item {
-        border-top: none !important;
-        border: dashed 1px var(--pill-color-remove) !important;
-        border-radius: var(--pill-radius);
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-        padding-inline: 0.75em 0.25em !important;
-        flex-wrap: nowrap;
-        height: var(--input-height);
-        .is-mobile & {
-            flex-direction: row !important;
-            align-items: center !important;
-        }
-        &:first-child {
-            border: dashed 1px var(--pill-color-remove) !important;
-        }
-        &:last-child {
-            border: none !important;
-            padding: 0em !important;
-            flex: 0 0 100%;
-        }
-        & .setting-item-info {
-            margin-inline-end: 0.25em;
-            color: var(--pill-color);
-            & .setting-item-name {
-                font-size: var(--metadata-input-font-size);
-            }
-        }
-        & .setting-item-control {
-            --icon-size: var(--icon-xs);
-            --icon-stroke: var(--icon-xs-stroke-width);
-            .is-mobile & {
-                margin-top: 0 !important;
-            }
-            .is-phone & {
-                width: inherit !important;
-            }
-            & select.dropdown, 
-            & select.dropdown:active,
-            & select.dropdown:focus {
-                border-radius: 2em;
-                font-size: var(--metadata-input-font-size);
-            }
-        }
-    }
-}
-
-.note-toolbar-setting-item-suggester-dialog {
-    width: calc(var(--dialog-width) / 1.5);
-    & .note-toolbar-item-suggestion {
-        & .note-toolbar-item-suggester-name, svg.svg-icon {
-            color: var(--cg-nt-quick-tools-item-text-color);
-        }
-        & .note-toolbar-item-suggester-name {
-            font-size: var(--cg-nt-quick-tools-item-font-size);
-        }
-        & svg.svg-icon {
-            height: var(--cg-nt-quick-tools-icon-size);
-            width: var(--cg-nt-quick-tools-icon-size);
-        }
-        &.is-selected {
-            background-color: var(--cg-nt-quick-tools-item-bg-color-hover);
-            border-radius: var(--cg-nt-quick-tools-item-border-radius);
-            & .note-toolbar-item-suggester-name, svg.svg-icon {
-                color: var(--cg-nt-quick-tools-item-text-color-hover);
-            }
-        }
-    }
-    & .note-toolbar-setting-plugin-onboarding {
-        margin: var(--size-4-3);
-        margin-bottom: 0;
-    }
-}
-
-.is-phone .note-toolbar-setting-dialog-phonefix {
-    padding: 1em;
-}
-
-.note-toolbar-setting-mini-dialog {
-    width: calc(var(--dialog-width) / 1.5);
-}
-
-.note-toolbar-setting-small-heading {
-    color: var(--color-base-50);
-    font-size: var(--font-ui-smaller);
-    font-variant: small-caps;
-    line-height: 1em;
-    margin-block-end: 0.5em;
-}
-
-.note-toolbar-setting-spacer {
-    margin-block-start: 2em;    
-}
-
-.note-toolbar-setting-import-confirm-preview {
-    border: 1px solid var(--background-modifier-border);
-    border-radius: 8px;
-    padding: 0em 1em 1em 1em;
-    & .note-toolbar-setting-tbar-preview {
-        & svg {
-            height: var(--font-ui-medium);
-            width: var(--font-ui-medium);            
-        }
-    }
-}
-
-.note-toolbar-setting-import-text-area {
-    border-top: none;
-    .setting-item-info {
-        display: none;
-    }
-    textarea {
-        flex: 1 1 auto;
-        min-height: 16em !important;
-    }
-}
-
-.note-toolbar-setting-confirm-dialog-buttons {
-    column-gap: 0.5em;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.note-toolbar-setting-confirm-dialog-note {
-    font-size: var(--font-ui-small);
-}
-
-.note-toolbar-share-dialog {
-    .setting-item:first-of-type {
-        border-top: none;
-        overflow: hidden;
-        .setting-item-info {
-            overflow: auto;
-            .setting-item-name {
-                font-family: var(--font-monospace) !important;
-                font-size: var(--font-ui-smaller) !important;
-                text-wrap: nowrap !important;
-            }
-        }
-    }
-}
-
-.note-toolbar-setting-help-section {
+.note-toolbar-setting-help-section-phone {
     color: var(--text-muted);
     font-size: var(--font-ui-smaller);
     text-align: center;
@@ -3183,7 +3664,6 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-setting-gallery-view .is-readable-line-width,
 .note-toolbar-setting-help-view .is-readable-line-width,
 .note-toolbar-setting-whatsnew-view .is-readable-line-width {
@@ -3191,7 +3671,6 @@ input[type="text"].note-toolbar-setting-error,
     margin-left: auto;
     margin-right: auto;
 }
-
 .note-toolbar-setting-help-view {
     & .note-toolbar-setting-view-banner {
         .is-phone & {
@@ -3199,13 +3678,11 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-setting-help-view-title {
     & h1, p, svg {
         color: var(--text-normal) !important;
     }
 }
-
 .note-toolbar-setting-help-view-section {
     border-radius: 8px;
     border: 1px solid var(--background-modifier-border);
@@ -3219,7 +3696,6 @@ input[type="text"].note-toolbar-setting-error,
         margin-top: 0 !important;
     }
 }
-
 .note-toolbar-setting-help-video {
     aspect-ratio: 8 / 5;
     position: relative;
@@ -3263,13 +3739,11 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
 .note-toolbar-setting-gallery-view {
     & .note-toolbar-setting-view-banner {
         background-image: linear-gradient(45deg, var(--color-purple) 50%, var(--color-pink) 100%), linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.2) 100%);
     }
 }
-
 .note-toolbar-setting-view-banner {
     background-blend-mode: overlay;
     font-size: var(--font-ui-medium);
@@ -3292,12 +3766,10 @@ input[type="text"].note-toolbar-setting-error,
         transform-origin: center;
     }
 }
-
 @keyframes note-toolbar-tip-icon-animation {
   0% { opacity: 0.5; transform: scale(0.95); }
   100% { opacity: 1; transform: scale(1); }
 }
-
 .note-toolbar-setting-view-cta {
     & .setting-item {
         border-top: 1px solid var(--background-modifier-border);
@@ -3313,14 +3785,25 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
+.note-toolbar-setting-gallery-content,
+.note-toolbar-setting-help-content,
+.note-toolbar-setting-tip-content,
 .note-toolbar-setting-whatsnew-content {
     margin-bottom: 2rem;
     user-select: text;
     &.markdown-preview-view {
         padding: unset;
     }
+    blockquote {
+        margin-inline-start: 0;
+        padding: 0 0.75em;
+        color: var(--text-muted);
+        border-left: .25em solid var(--background-modifier-border);
+    }
     pre {
+        &:has(code) {
+            overflow-x: auto;
+        }
         & code {
             font-size: calc(var(--font-ui-small) + 1px);
             overflow: scroll;
@@ -3352,7 +3835,20 @@ input[type="text"].note-toolbar-setting-error,
         }
     }
 }
-
+.note-toolbar-setting-whatsnew-content {
+    code:not(.language-ts) {
+        background-color: var(--code-background);
+        border-width: var(--code-border-width);
+        padding: 0.3em;
+    }
+    h2 {
+        border-bottom: 1px solid var(--background-modifier-border);
+        padding-bottom: .3em;
+        &::after {
+            display: none; /* fix for ITS theme */
+        }
+    }
+}
 .note-toolbar-setting-remote-skeleton {
     background: linear-gradient(90deg, var(--text-normal) 25%, var(--text-muted) 50%, var(--text-normal) 75%);
     opacity: 0.25;
@@ -3360,57 +3856,18 @@ input[type="text"].note-toolbar-setting-error,
     animation: note-toolbar-setting-remote-shimmer 1.5s infinite;
     border-radius: 4px;
 }
-
 @keyframes note-toolbar-setting-remote-shimmer {
     100% {
         background-position: -200% 0;
     }
 }
-
-.note-toolbar-setting-modal-phone-top-inset-fix {
-    .is-phone & {
-        /* fix/workaround for Obsidian v1.5.11 bug: tall modals opened from settings have an inaccessible close button */
-        top: var(--safe-area-inset-top);
-    }
+.note-toolbar-notice-with-cta {
+    cursor: pointer;
 }
-
-.note-toolbar-setting-modal-phone-bottom-inset-fix {
-    .is-phone & {
-        padding-bottom: var(--safe-area-inset-bottom);
-    }
-}
-
-.note-toolbar-setting-modal-container {
-    & .modal-close-button {
-        z-index: 2; /* fix for modal title overlapping close button */
-        /* general ux improvement for small screens */
-        .is-mobile & {
-            background-color: var(--background-secondary-alt);
-            border-radius: var(--radius-l);
-            inset-inline-end: var(--size-4-3);
-            top: var(--size-4-3);
-        }
-    }
-}
-
-.vertical-tab-content.note-toolbar-setting-modal {
-    padding-bottom: var(--size-4-5);
-    padding-inline-start: var(--size-4-5);
-    padding-inline-end: var(--size-4-5);
-    .is-phone & {
-        padding-top: 0;
-        padding-bottom: var(--size-4-12);
-    }
-    & .note-toolbar-setting-plugin-onboarding {
-        margin-bottom: 0.75em;
-    }
-}
-
-/*************************************************************************
- * Components (Note Toolbar API)
- *************************************************************************/
-
- .note-toolbar-ui {
+/* 
+ * Note Toolbar API UI Components
+ */
+.note-toolbar-ui {
     min-height: unset;
     & .modal-close-button {
         z-index: 2; /* fix for modal title overlapping close button */
@@ -3427,7 +3884,7 @@ input[type="text"].note-toolbar-setting-error,
             height: unset;
         }
     }
-    & .modal-header > .modal-title {
+    & .modal-header > .modal-title, .ntb-suggester-header {
         font-size: var(--font-ui-medium);
         font-weight: var(--font-normal);
     }
@@ -3477,32 +3934,35 @@ input[type="text"].note-toolbar-setting-error,
             }
         }
     }
+    &[data-ntb-ui-type="suggester"] {
+        & .ntb-suggester-header {
+            border-bottom: 1px solid var(--background-secondary);
+            padding: var(--size-4-4) var(--size-4-4) 0.75em var(--size-4-4);
+            & p {
+                margin: unset;
+            }
+        }
+    }
 }
-
 .note-toolbar-ui-button-div {
     display: flex;
     flex-direction: column;
     align-items: end;
     margin-top: 1rem;
 }
-
 .note-toolbar-ui-div {
     display: flex;
 }
-
 .note-toolbar-ui-form {
     display: flex;
     flex-grow: 1;
 }
-
 .note-toolbar-ui-input {
     flex-grow: 1;
 }
-
-/*************************************************************************
- * Launchpad
- *************************************************************************/
-
+/*
+ * New tab toolbar (Launchpad) 
+ */
 .note-toolbar-launchpad-container {
     display: flex;
     flex-direction: column;
@@ -3514,7 +3974,6 @@ input[type="text"].note-toolbar-setting-error,
         display: none;
     }
 }
-
 .note-toolbar-launchpad {
     & .callout-content {
         margin-left: auto;
@@ -3564,4 +4023,10 @@ input[type="text"].note-toolbar-setting-error,
         border-radius: var(--button-radius) !important;
         padding: 1em;
     }
+    &[data-callout-metadata*="glass"] {
+        & .callout-content ul[role="menu"] li {
+            background-color: unset;
+        }
+    }
+
 }

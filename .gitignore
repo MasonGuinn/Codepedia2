@@ -1,1 +1,11 @@
-/.idea/workspace.xml
+.idea/workspace.xml
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.config/workspace
+.config/workspace.json
+.config/workspace-mobile.json
+.trash/
+.DS_Store
+Thumbs.db
+Desktop.ini

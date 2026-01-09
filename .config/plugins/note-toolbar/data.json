@@ -15,23 +15,25 @@
   ],
   "icon": "circle-ellipsis",
   "keepPropsState": false,
+  "lockCallouts": false,
   "onboarding": {
     "new-toolbar-mapping": true
   },
   "ribbonAction": "toolbar",
+  "rules": [],
   "scriptingEnabled": true,
   "showEditInFabMenu": false,
   "showLaunchpad": false,
   "showToolbarIn": {
-    "audio": false,
-    "bases": false,
-    "canvas": false,
-    "image": false,
-    "kanban": false,
-    "pdf": false,
-    "video": false
+    "audio": true,
+    "bases": true,
+    "canvas": true,
+    "image": true,
+    "kanban": true,
+    "pdf": true,
+    "video": true
   },
-  "showToolbarInFileMenu": false,
+  "showToolbarInFileMenu": true,
   "showToolbarInOther": "",
   "toolbarProp": "notetoolbar",
   "toolbars": [

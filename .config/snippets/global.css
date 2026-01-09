@@ -10,3 +10,12 @@
     --inline-title-size: 3em;
     --inline-title-color: #5865F2;
 }
+
+/*
+Hide empty properties in Base card view
+*/
+
+.bases-cards-property:has(.bases-cards-line.bases-rendered-value:empty),
+.bases-cards-label {
+    display: none;
+}

@@ -35,6 +35,18 @@
       },
       "make-md": {
         "startupType": "short"
+      },
+      "editing-toolbar": {
+        "startupType": "short"
+      },
+      "flashy": {
+        "startupType": "instant"
+      },
+      "templater-obsidian": {
+        "startupType": "short"
+      },
+      "obsidian-git": {
+        "startupType": "short"
       }
     }
   }

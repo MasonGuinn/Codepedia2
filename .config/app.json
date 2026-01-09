@@ -3,8 +3,12 @@
   "readableLineLength": true,
   "propertiesInDocument": "visible",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Assets/Attachments",
+  "attachmentFolderPath": "Resources/Attachments",
   "userIgnoreFilters": [
     "Assets/"
-  ]
+  ],
+  "promptDelete": false,
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "newFileLocation": "current"
 }
