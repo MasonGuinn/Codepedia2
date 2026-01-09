@@ -1,7 +1,7 @@
 ---
-backward: "[[Area Template]]"
+backward: "[[SQL Server Admin]]"
 parent: "[[SQL Server Admin]]"
-forward: "[[Topic Template]]"
+forward: "[[Module 2]]"
 order: 99
 tags:
   - topic
