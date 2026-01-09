@@ -1,0 +1,15 @@
+{
+  "theme": "obsidian",
+  "accentColor": "#5f7dab",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "navigation",
+    "notes",
+    "global"
+  ],
+  "nativeMenus": false,
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "showViewHeader": true,
+  "showRibbon": true
+}

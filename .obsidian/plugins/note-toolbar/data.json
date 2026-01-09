@@ -1,0 +1,568 @@
+{
+  "debugEnabled": false,
+  "emptyViewToolbar": "c1205b51-ebd0-4193-8165-93e44b0127fc",
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [
+    {
+      "folder": "*",
+      "toolbar": "c1205b51-ebd0-4193-8165-93e44b0127fc"
+    }
+  ],
+  "icon": "circle-ellipsis",
+  "keepPropsState": false,
+  "lockCallouts": false,
+  "onboarding": {
+    "new-toolbar-mapping": true
+  },
+  "ribbonAction": "toolbar",
+  "rules": [],
+  "scriptingEnabled": true,
+  "showEditInFabMenu": false,
+  "showLaunchpad": false,
+  "showToolbarIn": {
+    "audio": true,
+    "bases": true,
+    "canvas": true,
+    "image": true,
+    "kanban": true,
+    "pdf": true,
+    "video": true
+  },
+  "showToolbarInFileMenu": true,
+  "showToolbarInOther": "",
+  "toolbarProp": "notetoolbar",
+  "toolbars": [
+    {
+      "uuid": "c1205b51-ebd0-4193-8165-93e44b0127fc",
+      "customClasses": "navbar",
+      "defaultItem": null,
+      "defaultStyles": [
+        "center",
+        "button"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "bb48a460-0c37-44e3-82a9-13a550bdf65f",
+          "hasCommand": false,
+          "icon": "home",
+          "inGallery": false,
+          "label": "Home",
+          "link": "Home.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "target": "",
+            "type": "file"
+          },
+          "plugin": "",
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        },
+        {
+          "uuid": "33da8f3a-ecec-4dca-bc33-266c1b4aff94",
+          "hasCommand": false,
+          "icon": "lucide-computer",
+          "inGallery": false,
+          "label": "Tech",
+          "link": "Technology/Technology.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "target": "",
+            "type": "file"
+          },
+          "plugin": "",
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        },
+        {
+          "uuid": "394eb9a0-f0c9-4f34-9edd-d38cd55bfff8",
+          "hasCommand": false,
+          "icon": "lucide-graduation-cap",
+          "inGallery": false,
+          "label": "School",
+          "link": "School/School.md",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "target": "",
+            "type": "file"
+          },
+          "plugin": "",
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        },
+        {
+          "uuid": "de90d84b-0ecb-43f4-b623-848a243de77a",
+          "hasCommand": false,
+          "icon": "",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "break"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "4ffdee1c-78cd-4f3a-9306-81be520827da",
+          "hasCommand": false,
+          "icon": "",
+          "inGallery": false,
+          "label": "",
+          "link": "34957854-b694-4245-94de-9c8c7c78153a",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "group"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Navbar",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "top"
+          }
+        }
+      },
+      "updated": "2025-08-03T07:23:06.717Z"
+    },
+    {
+      "uuid": "34957854-b694-4245-94de-9c8c7c78153a",
+      "customClasses": "",
+      "defaultItem": null,
+      "defaultStyles": [
+        "button",
+        "between",
+        "center"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "519c8ee6-3b12-49fa-be64-0b6cb7db56ec",
+          "hasCommand": false,
+          "icon": "left-arrow",
+          "inGallery": false,
+          "label": "",
+          "link": "{{prop_backward}}",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "uri"
+          },
+          "tooltip": "{{prop_backward}}",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        },
+        {
+          "uuid": "fa6873da-494b-401a-9672-f73742d29460",
+          "hasCommand": false,
+          "icon": "lucide-arrow-up-left-from-square",
+          "inGallery": false,
+          "label": "",
+          "link": "{{prop_parent}}",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "uri"
+          },
+          "tooltip": "{{prop_parent}}",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "4e3192f6-114e-47cf-a39b-b535c32c208a",
+          "hasCommand": false,
+          "icon": "right-arrow",
+          "inGallery": false,
+          "label": "",
+          "link": "{{prop_forward}}",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "uri"
+          },
+          "tooltip": "{{prop_forward}}",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": ""
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Quick Navbar",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-08-03T07:19:43.433Z"
+    },
+    {
+      "uuid": "08ce42c6-2584-4733-8f55-711730ce0061",
+      "customClasses": "",
+      "defaultItem": null,
+      "defaultStyles": [],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "5165b2b4-440c-4678-850e-2d0b3c98703b",
+          "hasCommand": false,
+          "icon": "lucide-file-search",
+          "inGallery": false,
+          "label": "Search & Replace",
+          "link": "Search & replace in current file",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "editor:open-search-replace",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "d52ce368-2f30-45b6-99c7-86f092102867",
+          "hasCommand": false,
+          "icon": "lucide-search",
+          "inGallery": false,
+          "label": "Search in all files",
+          "link": "Search: Search in all files",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "global-search:open",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Search",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-08-03T07:28:03.263Z"
+    }
+  ],
+  "version": 20250313.1,
+  "whatsnew_version": "1.25"
+}

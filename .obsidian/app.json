@@ -1,0 +1,14 @@
+{
+  "showUnsupportedFiles": true,
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Resources/Attachments",
+  "userIgnoreFilters": [
+    "Assets/"
+  ],
+  "promptDelete": false,
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "newFileLocation": "current"
+}
