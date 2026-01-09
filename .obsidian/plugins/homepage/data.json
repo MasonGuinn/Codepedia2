@@ -2,7 +2,7 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "Home",
+      "value": "Notes/Home",
       "kind": "File",
       "openOnStartup": true,
       "openMode": "Replace all open notes",
@@ -15,7 +15,7 @@
       "autoScroll": false,
       "pin": false,
       "commands": [],
-      "alwaysApply": false,
+      "alwaysApply": true,
       "hideReleaseNotes": true
     }
   },

@@ -33,9 +33,5 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  },
-  "School": "LiGraduationCap",
-  "Technology": "LiComputer",
-  "Home.md": "LiHome",
-  "Resources": "LiDatabase"
+  }
 }
