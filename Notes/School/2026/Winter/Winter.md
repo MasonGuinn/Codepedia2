@@ -1,6 +1,7 @@
 ---
 parent: "[[School]]"
 forward: "[[Spring]]"
+backward: "[[Notes/School/2025/Fall/Fall|Fall]]"
 order: 1
 cssclasses:
   - nav-menu
