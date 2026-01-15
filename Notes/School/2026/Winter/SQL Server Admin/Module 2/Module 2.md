@@ -9,7 +9,8 @@ tags:
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
 > *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*
 
-# Lecture 1 Quiz
+# Flashcards
+## Lecture 1 Quiz
 ```flashy
 What is the main difference between MDF and LDF files in SQL Server databases?
 =MDF files store data, while LDF files store log information
@@ -42,7 +43,7 @@ SQL Server Query Analyzer
 =Query Editor
 ```
 
-# Lecture 2 Quiz
+## Lecture 2 Quiz
 ```flashy
 What type of authentication is used to connect to the SQL Server instances in the video?
 SQL Server Authentication 
@@ -75,7 +76,7 @@ Active Directory Manager
 =Configuration Manager
 ```
 
-# Lecture 3 Quiz
+## Lecture 3 Quiz
 ```flashy
 Which database is responsible for storing temporary tables and objects?
 Master 
@@ -108,7 +109,7 @@ It stores temporary data
 It maintains log records for transactions
 ```
 
-# Lecture 4 Quiz
+## Lecture 4 Quiz
 ```flashy
 If you get an error connecting to the Administrator’s desktop
 Close the virtual machine 
@@ -141,7 +142,7 @@ SQL Server Profiler
 SQL Server Data Tools
 ```
 
-# Lecture 5 Quiz
+## Lecture 5 Quiz
 ```flashy
 Should the foreign key be an identity column?
 Yes, if the primary key it is referring to is an identity column.
@@ -170,4 +171,127 @@ What is the purpose of specifying a default filegroup for a data file?
 It ensures that the data file is encrypted
 It determines the primary key for the data file
 It determines the foreign key relationships in the data file
+```
+
+## Module 2 Quiz
+```flashy
+Which data format represents data as a series of ones and zeros?
+=binary 
+octal 
+decimal 
+hex 
+---
+Which of the following is true about the physical file structure of a SQL Server database?
+=it must have at least one log and one data file 
+only a data file is required 
+there are two data files for every log file 
+log files organize data in tables and indexes 
+---
+Which system database stores information on the structure of other databases and their components?
+model 
+=master 
+msdb 
+tempdb 
+---
+Which system database is recreated each time SQL Server starts?
+Master 
+Model 
+=tempdb 
+resource 
+---
+the column or combination of columns that uniquely identify each record within a table
+===primary key
+---
+a physical storage unit that is a collection of eight pages
+===extent
+---
+a condition that imposes a limitation on a value or action
+===constraint
+---
+organized as a two-dimensional structure consisting of rows and columns
+===table
+---
+provides a tree view of the different database schema objects organized as a series of folders
+===Object Explorer
+---
+constructed based on a common field, and enforces Referential Integrity
+===foreign Key
+---
+Which of the following is a required setting that must be supplied when creating a database?
+the SQL Server name 
+=a unique database name 
+the master database configuration 
+the user credentials 
+---
+Since it is easy to make configuration changes after a database is created, it’s best to get the database created and make changes as necessary afterward.
+True 
+=False 
+---
+Which of the following is true about naming objects?
+the database management system provides strict rules 
+=Camel case does not use special characters to link words 
+tables should always be named with a character prefix 
+A column name of Last Name is preferable to LastName 
+---
+Which of the following allows for importing and exporting of data?
+=bcp 
+DBCC 
+sqlcmd 
+sqlservr 
+---
+What are int, date, and bit examples of in a SQL database?
+=data type 
+condition 
+column name 
+record 
+---
+Many tasks can be performed with SQL Server Management Studio, but to delete a database, you need to use a SQL statement in the SQLCMD command prompt.
+True 
+=False 
+---
+What should you always do before creating a new database?
+=backup the master system database 
+install a fresh instance of SQL Server 2012 
+delete all existing temporary databases 
+stop and restart the SQL Server service 
+---
+Which of the following is true about the model database template?
+it cannot be customized 
+changes to it will affect existing databases 
+=new databases will inherit settings from it 
+modifying model database settings requires different steps than user databases 
+---
+The master system database stores a database template that is used as a blueprint when creating a new user database.
+True 
+=False 
+---
+Which tool allows you to create SQL queries to be executed against a database?
+Object Explorer 
+=Query Editor 
+Analysis Services 
+View Compiler 
+---
+Which of the following is a way of organizing data, with defined rules for storing, manipulating, and retrieving data?
+modeling format 
+virtual instance 
+physical architecture 
+=logical structure 
+---
+Which system database stores information related to jobs, schedules, and database backups?
+tempdb 
+=msdb 
+model 
+master 
+---
+sqlcmd ____.
+is a cross platform interactive command-line tool 
+must have Python installed 
+is used to start an instance 
+=is used to enter TSQL statements from the prompt 
+---
+Which of the following is a file extension used in the physical structure of a SQL database?
+=.ldf 
+.mdb 
+.txt 
+.dbf
 ```

@@ -1,6 +1,6 @@
 {
   "lastVersion": "3.2.1",
-  "aestheticStyle": "default",
+  "aestheticStyle": "glass",
   "positionStyle": "top",
   "menuCommands": [
     {
@@ -596,7 +596,7 @@
   "cMenuFontColor": "#000000",
   "cMenuBackgroundColor": "#b1ffff",
   "autohide": false,
-  "Iscentered": false,
+  "Iscentered": true,
   "custom_bg1": "#FFB78B8C",
   "custom_bg2": "#CDF4698C",
   "custom_bg3": "#A0CCF68C",
@@ -618,19 +618,19 @@
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
       "toolbarIconColor": "var(--text-normal)",
       "toolbarIconSize": 18,
-      "aestheticStyle": "default"
+      "aestheticStyle": "glass"
     },
     "following": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
       "toolbarIconColor": "var(--text-normal)",
       "toolbarIconSize": 18,
-      "aestheticStyle": "default"
+      "aestheticStyle": "glass"
     },
     "fixed": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
       "toolbarIconColor": "var(--text-normal)",
       "toolbarIconSize": 18,
-      "aestheticStyle": "default"
+      "aestheticStyle": "glass"
     },
     "mobile": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",

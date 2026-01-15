@@ -9,7 +9,8 @@ tags:
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
 > *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*
 
-# Lecture 1 Quiz
+# Flashcards
+## Lecture 1 Quiz
 ```flashy
 Which language is used for inserting, updating, deleting, and selecting data in a database?
 Data Definition Language (DDL)
@@ -42,7 +43,7 @@ Video editing
 Web development
 ```
 
-# Lecture 2 Quiz
+## Lecture 2 Quiz
 ```flashy
 Which edition of SQL Server offers high-end data center capabilities, unlimited virtualization, and end-to-end business intelligence?
 SQL Server Standard Edition
@@ -75,7 +76,7 @@ Six cores
 Eight cores
 ```
 
-# Lecture 3 Quiz
+## Lecture 3 Quiz
 
 ```flashy
 What should you consider when deciding which features to install?
@@ -109,7 +110,7 @@ To ensure SQL Server can connect to the internet
 =To allow services to run with appropriate permissions and security
 ```
 
-# Lecture 4 Quiz
+## Lecture 4 Quiz
 ```flashy
 Why is it recommended to avoid giving the administrator full control over the database server?
 It slows down the server performance
@@ -143,7 +144,7 @@ Virtual instance
 ```
 
 
-# Module 1 Quiz
+## Module 1 Quiz
 ```flashy
 SQL is:
 Language for network databases 

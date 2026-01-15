@@ -1,5 +1,6 @@
 {
   "debugEnabled": false,
+  "editorMenuToolbar": null,
   "emptyViewToolbar": "c1205b51-ebd0-4193-8165-93e44b0127fc",
   "export": {
     "includeIcons": true,
@@ -35,16 +36,46 @@
   },
   "showToolbarInFileMenu": true,
   "showToolbarInOther": "",
+  "textToolbar": null,
   "toolbarProp": "notetoolbar",
   "toolbars": [
+    {
+      "uuid": "9c3d9aef-3337-46e4-bdfd-decc468e9960",
+      "customClasses": "",
+      "defaultItem": null,
+      "defaultStyles": [
+        "border",
+        "even",
+        "sticky"
+      ],
+      "hasCommand": false,
+      "items": [],
+      "mobileStyles": [],
+      "name": "",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2026-01-15T04:02:18.806Z"
+    },
     {
       "uuid": "c1205b51-ebd0-4193-8165-93e44b0127fc",
       "customClasses": "navbar",
       "defaultItem": null,
-      "defaultStyles": [
-        "center",
-        "button"
-      ],
+      "defaultStyles": [],
       "hasCommand": false,
       "items": [
         {
@@ -53,7 +84,7 @@
           "icon": "home",
           "inGallery": false,
           "label": "Home",
-          "link": "Home.md",
+          "link": "Notes/Home.md",
           "linkAttr": {
             "commandCheck": false,
             "commandId": "",
@@ -99,7 +130,7 @@
           "icon": "lucide-computer",
           "inGallery": false,
           "label": "Tech",
-          "link": "Technology/Technology.md",
+          "link": "Notes/Technology/Technology.md",
           "linkAttr": {
             "commandCheck": false,
             "commandId": "",
@@ -145,7 +176,7 @@
           "icon": "lucide-graduation-cap",
           "inGallery": false,
           "label": "School",
-          "link": "School/School.md",
+          "link": "Notes/School/School.md",
           "linkAttr": {
             "commandCheck": false,
             "commandId": "",
@@ -287,17 +318,13 @@
           }
         }
       },
-      "updated": "2025-08-03T07:23:06.717Z"
+      "updated": "2026-01-15T04:13:47.477Z"
     },
     {
       "uuid": "34957854-b694-4245-94de-9c8c7c78153a",
       "customClasses": "",
       "defaultItem": null,
-      "defaultStyles": [
-        "button",
-        "between",
-        "center"
-      ],
+      "defaultStyles": [],
       "hasCommand": false,
       "items": [
         {
@@ -449,7 +476,7 @@
           }
         }
       },
-      "updated": "2025-08-03T07:19:43.433Z"
+      "updated": "2026-01-15T04:14:16.620Z"
     },
     {
       "uuid": "08ce42c6-2584-4733-8f55-711730ce0061",
@@ -564,5 +591,5 @@
     }
   ],
   "version": 20250313.1,
-  "whatsnew_version": "1.25"
+  "whatsnew_version": "1.26"
 }
