@@ -1,5 +1,4 @@
 [
-  "obsidian-minimal-settings",
   "obsidian-hider",
   "dataview",
   "obsidian-style-settings",
@@ -7,5 +6,6 @@
   "lazy-plugins",
   "obsidian-icon-folder",
   "note-toolbar",
-  "flashy"
+  "flashy",
+  "obsidian-minimal-settings"
 ]
