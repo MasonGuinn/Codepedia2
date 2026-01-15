@@ -8,7 +8,7 @@
     "Assets/"
   ],
   "promptDelete": false,
-  "livePreview": false,
+  "livePreview": true,
   "defaultViewMode": "preview",
   "newFileLocation": "current"
 }
