@@ -2,7 +2,7 @@
 backward: "[[SQL Server Admin]]"
 parent: "[[SQL Server Admin]]"
 forward: "[[Module 2]]"
-order: 99
+order: 1
 tags:
   - topic
 ---

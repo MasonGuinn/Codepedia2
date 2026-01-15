@@ -1,8 +1,8 @@
 ---
 backward: "[[Module 1]]"
 parent: "[[SQL Server Admin]]"
-forward: "[[Topic Template]]"
-order: 99
+forward: "[[Module 3]]"
+order: 2
 tags:
   - topic
 ---
