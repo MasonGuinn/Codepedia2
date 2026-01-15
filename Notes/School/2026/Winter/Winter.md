@@ -7,7 +7,7 @@ cssclasses:
   - nav-menu
 tags:
   - topic
-year: "2026"
+year: 2026
 ---
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
 > *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*

@@ -11,7 +11,7 @@ cssclasses:
 LIST WITHOUT ID
 file.link
 FROM "Notes/School"
-WHERE year = "2025"
+WHERE year = 2025
 SORT order ASC
 ```
 
@@ -21,7 +21,7 @@ SORT order ASC
 LIST WITHOUT ID
 file.link
 FROM "Notes/School"
-WHERE year = "2026"
+WHERE year = 2026
 SORT order
 ```
 
