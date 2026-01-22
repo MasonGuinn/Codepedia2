@@ -1,5 +1,6 @@
 {
   "openExternalURLs": true,
   "enableAdblocking": true,
-  "searchEngine": "google"
+  "searchEngine": "google",
+  "markdownPath": "Resources/Other"
 }
