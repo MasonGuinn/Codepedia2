@@ -5,10 +5,11 @@
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Resources/Attachments",
   "userIgnoreFilters": [
-    "Assets/"
+    "Resources/"
   ],
   "promptDelete": false,
   "livePreview": true,
   "defaultViewMode": "preview",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "openBehavior": "file:Notes/Home"
 }
