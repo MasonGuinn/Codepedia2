@@ -1,3 +1,4 @@
+# Notes
 ## 1. Fundamentals: The Concept of "Nothing"
 
 Before writing code, we must understand what `null` actually represents in the computer's memory.
@@ -331,15 +332,81 @@ myLogger.Write("System starting");
 
 ## Summary Table: Evolution of Null
 
-|**Era**|**Strategy**|**Key syntax**|
-|---|---|---|
-|**C# 1.0 - 5.0**|Defensive Coding|`if (x != null)`|
-|**C# 6.0 - 7.0**|Syntactic Sugar|`?.` `??`|
-|**C# 8.0+**|Type Safety (NRT)|`string?` vs `string`, `!`|
-|**C# 10+**|Argument Checking|`ArgumentNullException.ThrowIfNull(val)`|
+| **Era**          | **Strategy**      | **Key syntax**                           |
+| ---------------- | ----------------- | ---------------------------------------- |
+| **C# 1.0 - 5.0** | Defensive Coding  | `if (x != null)`                         |
+| **C# 6.0 - 7.0** | Syntactic Sugar   | `?.` `??`                                |
+| **C# 8.0+**      | Type Safety (NRT) | `string?` vs `string`, `!`               |
+| **C# 10+**       | Argument Checking | `ArgumentNullException.ThrowIfNull(val)` |
 
 > [!TIP] Final Advice
 > 
 > **"Make invalid states unrepresentable."**
 > 
 > Try to design your classes so they _cannot_ be null. Initialize properties in the constructor. Use `null` only when "nothing" is a valid, expected answer.
+
+
+# Flashcards
+```flashy
+What exception is thrown when you try to access a member (like .Length) on a null variable?
+=System.NullReferenceException
+System.ArgumentNullException
+System.InvalidOperationException
+System.StackOverflowException
+---
+In the C# memory model, which type of variable holds a pointer to an address (which can be null)?
+=Reference Type
+Value Type
+Struct
+Enum
+---
+To make a Value Type (like int or bool) capable of being null, you must wrap it in which struct?
+=Nullable<T>
+Object<T>
+Optional<T>
+Reference<T>
+---
+The short-hand syntax `int?` is syntactic sugar for {{Nullable<int>}}.
+---
+Which operator represents the "Null-Conditional" (Elvis) operator?
+=`?.`
+`??`
+`??=`
+`!`
+---
+What does the `??` (Null-Coalescing) operator do?
+=Returns the left operand if not null; otherwise returns the right operand.
+Assigns the right operand to the left only if the left is null.
+Suppresses compiler warnings about nulls.
+Accesses a member safely without throwing an exception.
+---
+Which operator allows you to assign a value to a variable ONLY if that variable is currently null?
+=`??=`
+`??`
+`?.`
+`?=`
+---
+The {{Null-Forgiving}} operator (`!`) tells the compiler to suppress null warnings because you know the value is valid.
+---
+In C# 8.0+ with `<Nullable>enable</Nullable>`, what does the declaration `string name;` imply?
+=The variable cannot be null (Non-nullable).
+The variable might be null (Nullable).
+It is a compile-time error.
+---
+In Modern C# (NRT), how do you explicitly declare a string that IS allowed to be null?
+=`string? name;`
+`string name;`
+`Nullable<string> name;`
+`string! name;`
+---
+What property do you check on a `Nullable<int>` to see if it actually holds data?
+=.HasValue
+.IsNull
+.Exist
+.Value
+---
+This attribute is used on helper methods to tell the compiler: "If this method returns true, the out parameter is definitely not null."
+===[NotNullWhen(true)]
+---
+The {{Null Object}} Pattern involves returning a "stub" class that does nothing, rather than returning null, to avoid null checks.
+```
