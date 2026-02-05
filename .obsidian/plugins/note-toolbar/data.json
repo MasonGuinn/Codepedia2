@@ -30,6 +30,7 @@
     "new-toolbar-mapping": true
   },
   "ribbonAction": "toolbar",
+  "ribbonToolbar": null,
   "rules": [],
   "scriptingEnabled": true,
   "showEditInFabMenu": false,
@@ -79,28 +80,22 @@
           "tooltip": "Toggle light/dark",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         },
@@ -120,28 +115,22 @@
           "tooltip": "Change Theme",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         },
@@ -161,28 +150,22 @@
           "tooltip": "Increase Font Size",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         },
@@ -202,28 +185,22 @@
           "tooltip": "Decrease Font Size",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         }
@@ -247,7 +224,7 @@
           }
         }
       },
-      "updated": "2026-01-22T04:10:04.612Z"
+      "updated": "2026-02-05T03:30:21.414Z"
     },
     {
       "uuid": "08ce42c6-2584-4733-8f55-711730ce0061",
@@ -273,28 +250,22 @@
           "tooltip": "",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         },
@@ -315,28 +286,22 @@
           "tooltip": "",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         },
@@ -356,28 +321,22 @@
           "tooltip": "Search Web",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         }
@@ -428,28 +387,22 @@
           "tooltip": "Appearance",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         },
@@ -469,28 +422,22 @@
           "tooltip": "Search",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         }
@@ -541,28 +488,22 @@
           "tooltip": "",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "scriptConfig": {
@@ -587,28 +528,22 @@
           "tooltip": "",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "scriptConfig": {
@@ -633,28 +568,22 @@
           "tooltip": "",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "scriptConfig": {
@@ -677,28 +606,22 @@
           "tooltip": "",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         },
@@ -718,28 +641,22 @@
           "tooltip": "",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         }
@@ -788,28 +705,22 @@
           "tooltip": "{{prop_backward}}",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "scriptConfig": {
@@ -832,28 +743,22 @@
           "tooltip": "{{prop_parent}}",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           }
         },
@@ -873,28 +778,22 @@
           "tooltip": "{{prop_forward}}",
           "visibility": {
             "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             },
             "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
+              "components": [
+                "icon",
+                "label"
+              ]
             }
           },
           "scriptConfig": {
@@ -924,6 +823,6 @@
       "updated": "2026-01-15T04:14:16.620Z"
     }
   ],
-  "version": 20250313.1,
-  "whatsnew_version": "1.27"
+  "version": 20260122.1,
+  "whatsnew_version": "1.28"
 }

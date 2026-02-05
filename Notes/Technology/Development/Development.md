@@ -14,8 +14,8 @@ bg: https://i.pinimgproxy.com/?url=aHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvb
 ```dataview
 LIST WITHOUT ID
 file.link
-FROM "Technology/Development"
-WHERE file.name != this.file.name
+FROM "Notes/Technology/Development"
+WHERE length(split(file.folder, "/")) = length(split(this.file.folder, "/")) + 1 AND file.name = display(link(file.folder))
 SORT order ASC
 ```
 

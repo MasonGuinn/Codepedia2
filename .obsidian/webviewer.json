@@ -2,5 +2,6 @@
   "openExternalURLs": true,
   "enableAdblocking": true,
   "searchEngine": "google",
-  "markdownPath": "Resources/Other"
+  "markdownPath": "Resources/Other",
+  "homepage": "google.com"
 }
