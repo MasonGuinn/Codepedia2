@@ -142,6 +142,63 @@ string? input = GetUserInput();
 string username = input ?? "Guest"; 
 ```
 
+#### Coalescing Assignment Operator (`??=`)
+
+_Added in C# 8.0._ This is extremely useful for "Lazy Loading" or ensuring a variable has a value before using it.
+
+```cs
+List<int>? numbers = null;
+
+// Old way
+if (numbers == null)
+{
+    numbers = new List<int>();
+}
+numbers.Add(1);
+
+// New way
+// "If numbers is null, assign a new list to it. Then add 1."
+numbers ??= new List<int>();
+numbers.Add(1);
+```
+
+#### Null Index Operator (`?[]`)
+
+Used when the **collection itself** might be null.
+
+> [!WARNING] Important Distinction `?[]` checks if the _List_ exists. It does **not** check if the index exists. If the list is not null, but is empty, `list?[0]` will still throw an `IndexOutOfRangeException`.
+
+```cs
+string[]? tags = null;
+
+// Returns null immediately because 'tags' is null. 
+// No crash.
+string? firstTag = tags?[0]; 
+
+// Real world use: Safely invoking a delegate/event
+// Only Invoke if PropertyChanged is not null
+PropertyChanged?.Invoke(this, args);
+```
+
+#### Null-Forgiving Operator (`!`)
+
+Also known as the "Dammit" operator. This does nothing at runtime; it is purely a message to the compiler to suppress warnings. Use this sparingly!
+
+```cs
+string? inputs = GetConfig(); 
+
+// Scenario: You know 'inputs' is not null because you just validated it 
+// in a way the compiler can't see (e.g., via an external file check).
+
+if (CheckFileExists()) 
+{
+    // Without '!', compiler warns: "inputs might be null".
+    // With '!', you say: "Trust me, I know what I'm doing."
+    string validString = inputs!; 
+    Console.WriteLine(validString.Length);
+}
+```
+
 ---
 
 ## 5. Modern Era: Nullable Reference Types (NRT)
