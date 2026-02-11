@@ -16,7 +16,7 @@ cssclasses:
 LIST WITHOUT ID
 file.link
 FROM "Notes/School/2026/Winter/SQL Server Admin"
-WHERE contains(file.name, "Module")
+WHERE regexmatch("^\d", file.name)
 SORT order ASC
 ```
 
@@ -26,7 +26,7 @@ SORT order ASC
 LIST WITHOUT ID
 file.link
 FROM "Notes/School/2026/Winter/SQL Server Admin"
-WHERE !contains(file.name, "Module")
+WHERE !regexmatch("^\d", file.name)
 AND file.name != this.file.name SORT order ASC
 ```
 

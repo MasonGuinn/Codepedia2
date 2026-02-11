@@ -47,6 +47,9 @@
       },
       "obsidian-git": {
         "startupType": "short"
+      },
+      "obsidian-advanced-uri": {
+        "startupType": "short"
       }
     }
   }
