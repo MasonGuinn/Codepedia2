@@ -1,0 +1,43 @@
+/* --- navigation-floating.css --- */
+/* Logic for ripping specific buttons out of the toolbar to act as floating FABs */
+
+/* Add invisible padding so notes can scroll past the buttons */
+.markdown-source-view .cm-scroller, 
+.markdown-preview-view {
+    padding-bottom: 120px !important; 
+}
+
+/* 1. Base Shared Styles & Glass Effect */
+.callout.navbar .callout-content ul li:has([href*="prop_"]) {
+    position: fixed !important;
+    bottom: 30px !important;
+    transform: translateX(-50%) !important;
+    z-index: 1000 !important;
+    margin: 0 !important;
+}
+
+.callout.navbar .callout-content ul li:has([href*="prop_"]) a.internal-link,
+.callout.navbar .callout-content ul li:has([href*="prop_"]) span.external-link {
+    border-radius: 50% !important;        
+    width: 48px !important;               
+    height: 48px !important;              
+    padding: 0 !important;                
+    background-color: rgba(46, 51, 56, 0.75) !important; 
+    backdrop-filter: blur(8px);           
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.1) !important; 
+}
+
+/* 2. Hover Effect */
+.callout.navbar .callout-content ul li:has([href*="prop_"]) a.internal-link:hover,
+.callout.navbar .callout-content ul li:has([href*="prop_"]) span.external-link:hover {
+    border-radius: 50% !important;
+    padding: 0 !important;
+    transform: scale(1.1);                
+    background-color: var(--brand-accent) !important; 
+}
+
+/* 3. Unique X-Axis Positions */
+.callout.navbar .callout-content ul li:has([href*="prop_backward"]) { left: calc(50% - 70px) !important; }
+.callout.navbar .callout-content ul li:has([href*="prop_parent"]) { left: 50% !important; }
+.callout.navbar .callout-content ul li:has([href*="prop_forward"]) { left: calc(50% + 70px) !important; }

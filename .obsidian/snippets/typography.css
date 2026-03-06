@@ -1,0 +1,13 @@
+/* --- typography.css --- */
+/* Rules for fonts, headers, and text formatting */
+
+/* Native Obsidian Inline Title */
+.inline-title {
+    text-align: center;
+    border-radius: 15px;
+    padding: 0;
+    margin: 30px 0 50px 0;
+    --inline-title-weight: 300;
+    --inline-title-size: 3em;
+    --inline-title-color: var(--brand-accent); /* Dynamically linked to theme-colors! */
+}

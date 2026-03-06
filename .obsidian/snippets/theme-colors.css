@@ -1,0 +1,25 @@
+/* --- theme-colors.css --- */
+/* Core theme variables that automatically swap based on light/dark mode */
+
+body {
+    /* Global Brand Color */
+    --brand-accent: #5865F2; 
+
+    /* Navigation Base Variables (Defaults to Dark Mode) */
+    --nav-bg: #2E3338;
+    --nav-icon-bg: #464a4d;
+    --nav-text: #EAECEF;
+    
+    /* Global Layout Variables */
+    --shadow-base: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 0 15px -2px var(--brand-accent), 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-active: inset 0 2px 4px rgba(0,0,0,0.2);
+    --transition: all 0.2s ease-out;
+}
+
+body.theme-light {
+    /* Overrides for Light Mode */
+    --nav-bg: #F2F3F5;
+    --nav-icon-bg: #d3d8db;
+    --nav-text: #2E3338;
+}

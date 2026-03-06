@@ -1,0 +1,93 @@
+/* --- navigation-main.css --- */
+/* Core layout and structure for the top Note Toolbar */
+
+/* --- Layout Rules --- */
+.nav-menu .list-view-ul li { margin-inline-start: 0; }
+
+.nav-menu .list-view-ul,
+.callout[data-callout="note-toolbar"] .callout-content ul {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    list-style-type: none; 
+    padding-inline-start: 0; 
+}
+
+/* --- Base Button Styling --- */
+.nav-menu .list-view-ul li a.internal-link,
+.callout[data-callout="note-toolbar"] .callout-content a,
+.callout[data-callout="note-toolbar"] .callout-content span.external-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    padding: 0 20px;
+    border-radius: 8px;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-decoration: none;
+    box-shadow: var(--shadow-base);
+    transition: var(--transition);
+    
+    /* Dynamically pulls from theme-colors.css */
+    background-color: var(--nav-bg); 
+    color: var(--nav-text); 
+}
+
+/* --- Hover & Active States --- */
+.nav-menu .list-view-ul li a.internal-link:hover, 
+.callout[data-callout="note-toolbar"] .callout-content a:hover,
+.callout[data-callout="note-toolbar"] .callout-content span.external-link:hover {
+    color: white;
+    background-color: var(--brand-accent);
+    box-shadow: var(--shadow-hover);
+    padding: 0 22px;
+    font-size: 1.4em;
+}
+
+.nav-menu .list-view-ul li a.internal-link:active, 
+.callout[data-callout="note-toolbar"] .callout-content a:active,
+.callout[data-callout="note-toolbar"] .callout-content span.external-link:active {
+    transition-duration: 0.1s;
+    box-shadow: var(--shadow-active);
+    font-size: 1.38em;
+    padding: 0 21px;
+}
+
+/* --- Navigation Title --- */
+.nav-menu h1:has(.nav-title) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: var(--shadow-base);
+    background-color: var(--nav-bg);
+    color: var(--nav-text);
+}
+
+.nav-menu h1:has(.nav-title) .heading-collapse-indicator {
+    background-color: var(--nav-icon-bg);
+    position: unset;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; 
+    transition: var(--transition);
+}
+
+.nav-menu h1:has(.nav-title) .heading-collapse-indicator:hover { cursor: pointer; }
+.nav-menu h1:has(.nav-title) .heading-collapse-indicator svg { color: var(--nav-text); }

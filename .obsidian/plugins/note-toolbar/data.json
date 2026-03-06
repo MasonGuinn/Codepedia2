@@ -591,46 +591,12 @@
           }
         },
         {
-          "uuid": "de90d84b-0ecb-43f4-b623-848a243de77a",
-          "hasCommand": false,
+          "uuid": "1b385ab3-26eb-4382-a1b1-04f37aee1dad",
           "icon": "",
-          "inGallery": false,
           "label": "",
-          "link": "",
-          "linkAttr": {
-            "commandCheck": false,
-            "commandId": "",
-            "hasVars": false,
-            "type": "break"
-          },
           "tooltip": "",
-          "visibility": {
-            "desktop": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "mobile": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "tablet": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            }
-          }
-        },
-        {
-          "uuid": "4ffdee1c-78cd-4f3a-9306-81be520827da",
           "hasCommand": false,
-          "icon": "",
           "inGallery": false,
-          "label": "",
           "link": "34957854-b694-4245-94de-9c8c7c78153a",
           "linkAttr": {
             "commandCheck": false,
@@ -638,7 +604,6 @@
             "hasVars": false,
             "type": "group"
           },
-          "tooltip": "",
           "visibility": {
             "desktop": {
               "components": [
@@ -657,7 +622,8 @@
                 "icon",
                 "label"
               ]
-            }
+            },
+            "viewMode": "all"
           }
         }
       ],
@@ -680,7 +646,7 @@
           }
         }
       },
-      "updated": "2026-03-06T00:47:27.781Z"
+      "updated": "2026-03-06T01:00:57.127Z"
     },
     {
       "uuid": "34957854-b694-4245-94de-9c8c7c78153a",
@@ -806,7 +772,7 @@
       "position": {
         "desktop": {
           "allViews": {
-            "position": "props"
+            "position": "bottom"
           }
         },
         "mobile": {
@@ -820,7 +786,7 @@
           }
         }
       },
-      "updated": "2026-03-06T00:46:55.817Z"
+      "updated": "2026-03-06T00:56:21.053Z"
     }
   ],
   "version": 20260122.1,

@@ -3,9 +3,12 @@
   "accentColor": "#5f7dab",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "navigation",
     "notes",
-    "global"
+    "navigation-main",
+    "navigation-floating",
+    "plugin-tweaks",
+    "theme-colors",
+    "typography"
   ],
   "nativeMenus": false,
   "baseFontSizeAction": false,
