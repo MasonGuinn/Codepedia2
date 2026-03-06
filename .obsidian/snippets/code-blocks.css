@@ -1,0 +1,67 @@
+/* --- code-blocks.css --- */
+/* Transforms native code blocks into minimal IDE-style windows */
+
+/* 1. Base Code Block Styling */
+.markdown-rendered pre {
+    position: relative;
+    padding-top: 2.8em !important; /* Pushes the code down to make room for the header */
+    border: 1px solid var(--nav-icon-bg); 
+    border-radius: 8px;
+    box-shadow: var(--shadow-base);
+    background-color: #1e1e1e; /* Classic dark IDE background */
+    overflow: hidden; 
+}
+
+/* 2. Header Bar (Clean, no window controls) */
+.markdown-rendered pre::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    height: 2.2em;
+    background-color: #2d2d2d;
+    border-bottom: 1px solid var(--nav-icon-bg);
+    z-index: 1;
+}
+
+/* 3. The Language Heading Base Style */
+.markdown-rendered pre::after {
+    position: absolute;
+    top: 0.55em;
+    left: 1.2em; /* Aligns the text cleanly to the left */
+    color: var(--nav-text); 
+    opacity: 0.6; /* Keeps it subtle like a real IDE tab */
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 600;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+    z-index: 2;
+    pointer-events: none; /* Prevents text from blocking clicks */
+}
+
+/* 4. Language Mappings */
+.markdown-rendered pre.language-python::after { content: "Python"; }
+.markdown-rendered pre.language-c::after { content: "C"; }
+.markdown-rendered pre.language-cpp::after { content: "C++"; }
+.markdown-rendered pre.language-csharp::after,
+.markdown-rendered pre.language-cs::after { content: "C#"; }
+.markdown-rendered pre.language-sql::after { content: "SQL Server"; }
+.markdown-rendered pre.language-js::after,
+.markdown-rendered pre.language-javascript::after { content: "JavaScript"; }
+.markdown-rendered pre.language-html::after { content: "HTML"; }
+.markdown-rendered pre.language-css::after { content: "CSS"; }
+.markdown-rendered pre.language-dataview::after { content: "Dataview"; }
+
+/* 5. Fit the Native Copy Button into the new header */
+.markdown-rendered .copy-code-button {
+    top: 0.35em;
+    right: 0.5em;
+    z-index: 3;
+    background-color: transparent;
+}
+
+/* 6. Hide the native flair completely */
+.markdown-rendered .code-block-flair {
+    display: none !important;
+}

@@ -24,4 +24,3 @@ FROM "Notes/School"
 WHERE year = 2026
 SORT order
 ```
-

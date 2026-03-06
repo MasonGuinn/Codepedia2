@@ -8,7 +8,8 @@
     "navigation-floating",
     "plugin-tweaks",
     "theme-colors",
-    "typography"
+    "typography",
+    "code-blocks"
   ],
   "nativeMenus": false,
   "baseFontSizeAction": false,
