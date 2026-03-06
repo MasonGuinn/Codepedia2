@@ -68,11 +68,6 @@ body.theme-dark {
 	margin: 0;
 	color: inherit;
 	flex-grow: 1;
-	line-height: 1.5;
-}
-
-.flashcard-question > div {
-	display: inline;
 }
 
 .flashcard-body {
@@ -294,46 +289,28 @@ body.theme-dark .flashcard-code-inline {
 }
 
 /* Syntax highlighted code blocks */
-.flashcard-code-block-wrapper {
-	display: inline-block;
-	vertical-align: baseline;
-	margin: 0;
-}
-
 .flashcard-code-block-wrapper pre {
-	margin: 0;
-	padding: 0.5em 0.75em;
+	margin: 0.5em 0;
+	padding: 0.75em;
 	border-radius: 6px;
 	font-size: 0.8em;
 	line-height: 1.4;
 	max-width: 100%;
 	overflow-x: auto;
-	display: inline-block;
-	vertical-align: baseline;
 }
 
 .flashcard-code-block-wrapper code {
 	font-size: 0.85em;
 }
 
+.flashcard-question .flashcard-code-block-wrapper pre,
+.flashcard-answer .flashcard-code-block-wrapper pre {
+	margin: 0.3em 0;
+	padding: 0.5em;
+}
+
 /* Make code blocks in answers look good in buttons */
 .flashcard-answer pre {
 	text-align: left;
 	margin: 0;
-	width: auto;
-}
-
-/* When answer contains code block wrapper, adjust alignment */
-.flashcard-answer .flashcard-code-block-wrapper {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.flashcard-answer .flashcard-code-block-wrapper pre {
-	background-color: rgba(0, 0, 0, 0.05);
-	display: inline-block;
-}
-
-body.theme-dark .flashcard-answer .flashcard-code-block-wrapper pre {
-	background-color: rgba(0, 0, 0, 0.3);
 }

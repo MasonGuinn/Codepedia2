@@ -1,10 +1,10 @@
 ---
-backward: "[[1. SQL Server Basics & Installation]]"
+backward: "[[SQL Server Basics & Installation]]"
 parent: "[[SQL Server Admin]]"
-forward: "[[3. T-SQL Primer & Database Objects]]"
+forward: "[[T-SQL Primer & Database Objects]]"
 order: 2
 tags:
-  - topic
+  - module
 ---
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
 > *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*
