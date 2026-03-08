@@ -1,14 +1,15 @@
 ---
+tags:
+  - type/dashboard
 backward: "[[Computer Science]]"
 parent: "[[Technology]]"
 forward: "[[Development]]"
+order: 2
 cssclasses:
   - nav-menu
-order: 2
-tags:
-  - topic
-bg: https://i.pinimgproxy.com/?url=aHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvbS8yNTYvNDc0NC80NzQ0MzE1LnBuZw==&ts=1763349952&sig=cd90e0b00fde5d1458f7fe5b6be07159e38dfbc724b1bec89465bc28d85718fb
 ---
+> *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
+> *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*
 
 ```dataview
 LIST WITHOUT ID

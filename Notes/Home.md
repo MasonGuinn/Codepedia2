@@ -1,6 +1,6 @@
 ---
 tags:
-  - section
+  - type/dashboard
 cssclasses:
   - nav-menu
 ---

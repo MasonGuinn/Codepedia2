@@ -19,8 +19,12 @@
       "template": ""
     }
   ],
-  "enable_file_templates": false,
+  "enable_file_templates": true,
   "file_templates": [
+    {
+      "regex": ".*Untitled.*\\.md$",
+      "template": "Resources/Templates/Template - Interceptor.md"
+    },
     {
       "regex": "([^/]+)/\\1\\.md$",
       "template": "Resources/Templates/Template - Folder Dashboard.md"

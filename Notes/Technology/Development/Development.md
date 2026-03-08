@@ -1,20 +1,23 @@
 ---
 tags:
-  - topic
+  - type/dashboard
 backward: "[[Cybersecurity]]"
 parent: "[[Technology]]"
+forward: "[[Computer Science]]"
+order: 3
 cssclasses:
   - nav-menu
-order: 3
-forward: "[[Computer Science]]"
-bg: https://i.pinimgproxy.com/?url=aHR0cHM6Ly9jZG4taWNvbnMtcG5nLmZsYXRpY29uLmNvbS8yNTYvNzk5MS83OTkxMDU1LnBuZw==&ts=1763350134&sig=91f326acddc9da7d3b0f860604fff14305c9ed02c68498e04324378b05197c34
 ---
+> *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
+> *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*
 
 
 ```dataview
 LIST WITHOUT ID
 file.link
-FROM "Notes/Technology/Development"
-WHERE length(split(file.folder, "/")) = length(split(this.file.folder, "/")) + 1 AND file.name = display(link(file.folder))
+FROM ""
+WHERE contains(file.folder, this.file.folder) 
+  AND length(split(file.folder, "/")) = length(split(this.file.folder, "/")) + 1 
+  AND file.name != this.file.name
 SORT order ASC
 ```
