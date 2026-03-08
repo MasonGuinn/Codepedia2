@@ -13,12 +13,17 @@ cssclasses:
 > - [:RiMenuSearchLine:]()<data data-ntb-menu="08ce42c6-2584-4733-8f55-711730ce0061"/> <!-- Search -->
 # <div class="feed-section-header">Recently Updated</div>
 ```dataview
-LIST WITHOUT ID file.link + "<span class='feed-meta'>Updated: " + dateformat(file.mtime, "MMM dd") + "</span>" FROM "" WHERE file.name != this.file.name AND !contains(file.folder, "Templates") SORT file.mtime DESC LIMIT 7
+LIST WITHOUT ID
+file.link + "<span class='feed-meta'>Updated: " + dateformat(file.mtime, "MMM dd") + "</span>"
+FROM ""
+WHERE file.name != this.file.name
+	AND !contains(file.folder, "Templates")
+SORT file.mtime DESC LIMIT 7
 ```
 # <div class="feed-section-header">Needs Cleanup</div>
 ```dataview
 LIST WITHOUT ID
-file.link + "<span class='feed-meta'>" + split(file.folder, "/")[length(split(file.folder, "/")) - 1] + "</span>"
+file.link + "<span class='feed-meta'>Updated: " + dateformat(file.mtime, "MMM dd") + "</span>"
 FROM #status/draft
 WHERE !contains(file.folder, "Templates")
 SORT file.mtime DESC
@@ -26,7 +31,7 @@ SORT file.mtime DESC
 # <div class="feed-section-header">Study Queue</div>
 ```dataview
 LIST WITHOUT ID
-file.link + "<span class='feed-meta'>" + split(file.folder, "/")[length(split(file.folder, "/")) - 1] + "</span>"
+file.link + "<span class='feed-meta'>Updated: " + dateformat(file.mtime, "MMM dd") + "</span>"
 FROM #status/review
 WHERE !contains(file.folder, "Templates")
 SORT file.mtime ASC
