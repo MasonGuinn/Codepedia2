@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcards
+  - type/flashcard
 parent: "[[SSMS, System DBs & Physical Structure]]"
 ---
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*

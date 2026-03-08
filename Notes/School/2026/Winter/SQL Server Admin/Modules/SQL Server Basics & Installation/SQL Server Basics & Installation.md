@@ -1,10 +1,10 @@
 ---
+tags:
+  - type/module
 backward: "[[SQL Server Admin]]"
 parent: "[[SQL Server Admin]]"
 forward: "[[SSMS, System DBs & Physical Structure]]"
 order: 1
-tags:
-  - module
 cssclasses:
   - nav-menu
 ---
@@ -14,7 +14,7 @@ cssclasses:
 ```dataview
 LIST WITHOUT ID
 file.link
-FROM #flashcards
+FROM #type/flashcard
 WHERE file.folder = this.file.folder
 SORT order ASC
 ```

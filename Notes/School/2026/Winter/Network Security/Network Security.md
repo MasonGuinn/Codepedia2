@@ -1,12 +1,12 @@
 ---
+tags:
+  - type/course
+order: 2
+cssclasses:
+  - nav-menu
 backward: "[[SQL Server Admin]]"
 parent: "[[Winter]]"
 forward: "[[SQL Server Admin]]"
-order: 2
-tags:
-  - topic
-cssclasses:
-  - nav-menu
 ---
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
 > *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*

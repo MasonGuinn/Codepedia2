@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcards
+  - type/flashcard
 parent: "[[SQL Server Basics & Installation]]"
 ---
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*

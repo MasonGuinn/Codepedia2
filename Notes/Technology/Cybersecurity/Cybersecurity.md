@@ -1,12 +1,12 @@
 ---
 tags:
-  - type/dashboard
-backward: "[[Computer Science]]"
-parent: "[[Technology]]"
-forward: "[[Development]]"
+  - type/hub
 order: 2
 cssclasses:
   - nav-menu
+backward: "[[Computer Science]]"
+parent: "[[Technology]]"
+forward: "[[Development]]"
 ---
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
 > *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*

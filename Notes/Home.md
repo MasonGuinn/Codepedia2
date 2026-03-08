@@ -1,6 +1,6 @@
 ---
 tags:
-  - type/dashboard
+  - type/hub
 cssclasses:
   - nav-menu
 ---
@@ -21,5 +21,21 @@ WHERE file.name != this.file.name
 	AND !contains(file.folder, "Templates")
 SORT file.mtime DESC
 LIMIT 7
+```
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Needs Cleanup",
+  file.folder AS "Class"
+FROM #status/draft
+SORT file.mtime DESC
+```
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Study Queue",
+  file.folder AS "Class"
+FROM #status/review
+SORT file.mtime ASC
 ```
 

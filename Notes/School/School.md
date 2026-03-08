@@ -1,6 +1,6 @@
 ---
 tags:
-  - type/dashboard
+  - type/hub
 cssclasses:
   - nav-menu
 ---

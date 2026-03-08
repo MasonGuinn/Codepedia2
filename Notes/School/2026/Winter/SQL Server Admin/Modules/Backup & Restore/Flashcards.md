@@ -1,3 +1,10 @@
+---
+tags:
+  - type/flashcard
+parent: "[[Backup & Restore]]"
+---
+> *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
+> *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>
 ```flashy
 Which of the following is a reason that transaction logs must be backed up frequently?
 so you don’t have to spend time backing up data files

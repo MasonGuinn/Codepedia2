@@ -1,13 +1,13 @@
 ---
+tags:
+  - type/hub
+order: 1
+year: 2026
+cssclasses:
+  - nav-menu
 parent: "[[School]]"
 forward: "[[Spring]]"
 backward: "[[Notes/School/2025/Fall/Fall|Fall]]"
-order: 1
-cssclasses:
-  - nav-menu
-tags:
-  - topic
-year: 2026
 ---
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
 > *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*
