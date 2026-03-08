@@ -14,6 +14,7 @@ cssclasses:
 ```dataview
 LIST WITHOUT ID
 file.link
-FROM "Notes/School/2026/Winter/SQL Server Admin" and #flashcards
+FROM #flashcards
+WHERE file.folder = this.file.folder
 SORT order ASC
 ```
