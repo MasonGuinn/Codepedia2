@@ -12,3 +12,14 @@ cssclasses:
 > - [:RiBrushFill:]()<data data-ntb-menu="91d0f70f-7985-49d5-8077-e1fd8ff325ce"/> <!-- Appearance -->
 > - [:RiMenuSearchLine:]()<data data-ntb-menu="08ce42c6-2584-4733-8f55-711730ce0061"/> <!-- Search -->
 
+```dataview
+TABLE WITHOUT ID
+	file.link AS "Recent Notes",
+	dateformat(file.mtime, "MMM dd, h:mm a") AS "Time"
+FROM ""
+WHERE file.name != this.file.name
+	AND !contains(file.folder, "Templates")
+SORT file.mtime DESC
+LIMIT 7
+```
+

@@ -7,12 +7,12 @@
       ""
     ]
   ],
-  "trigger_on_file_creation": false,
+  "trigger_on_file_creation": true,
   "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": true,
+  "enable_folder_templates": false,
   "folder_templates": [
     {
       "folder": "",
@@ -22,8 +22,24 @@
   "enable_file_templates": false,
   "file_templates": [
     {
+      "regex": "([^/]+)/\\1\\.md$",
+      "template": "Resources/Templates/Template - Folder Dashboard.md"
+    },
+    {
+      "regex": ".*[Ff]lashcards?\\.md$",
+      "template": "Resources/Templates/Template - Flashcard Deck.md"
+    },
+    {
+      "regex": ".*/Tests/.*\\.md$",
+      "template": "Resources/Templates/Template - Test Guide.md"
+    },
+    {
+      "regex": ".*/Modules/.*\\.md$",
+      "template": "Resources/Templates/Template - Lesson Note.md"
+    },
+    {
       "regex": ".*",
-      "template": ""
+      "template": "Resources/Templates/Template - Lesson Note.md"
     }
   ],
   "syntax_highlighting": true,
