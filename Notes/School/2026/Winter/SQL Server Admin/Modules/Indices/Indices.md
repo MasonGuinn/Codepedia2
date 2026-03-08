@@ -1,6 +1,7 @@
 ---
 tags:
   - type/module
+  - status/draft
 order: 5
 cssclasses:
   - nav-menu

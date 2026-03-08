@@ -1,6 +1,7 @@
 ---
 tags:
   - type/test-prep
+  - status/review
 order: 1
 parent: "[[SQL Server Admin]]"
 ---

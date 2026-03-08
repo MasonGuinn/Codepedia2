@@ -9,7 +9,8 @@
     "plugin-tweaks",
     "theme-colors",
     "typography",
-    "code-blocks"
+    "code-blocks",
+    "dashboard-feed"
   ],
   "nativeMenus": false,
   "baseFontSizeAction": false,
