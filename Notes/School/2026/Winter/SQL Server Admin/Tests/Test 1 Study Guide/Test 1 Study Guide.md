@@ -1,10 +1,8 @@
 ---
-backward: "[[SQL Server Admin]]"
-parent: "[[SQL Server Admin]]"
-forward: "[[SSMS, System DBs & Physical Structure]]"
-order: 1
 tags:
   - type/test-prep
+order: 1
+parent: "[[SQL Server Admin]]"
 ---
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
 > *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*
