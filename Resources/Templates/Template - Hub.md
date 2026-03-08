@@ -8,8 +8,8 @@ backward:
 parent: "[[<% tp.file.folder(true).split('/').slice(-2, -1) %>]]"
 forward:
 ---
-> *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
-> *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*
+> *Created: <% tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
+> *Modified: <% tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*
 
 
 # <span class="nav-title"><% tp.file.title %></span>

@@ -1,6 +1,6 @@
 ---
 tags:
-  - type/module
+  - type/topic
   - status/draft
 order: 3
 cssclasses:

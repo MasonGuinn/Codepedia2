@@ -1,6 +1,6 @@
 ---
 tags:
-  - type/module
+  - type/topic
 order: 1
 cssclasses:
   - nav-menu

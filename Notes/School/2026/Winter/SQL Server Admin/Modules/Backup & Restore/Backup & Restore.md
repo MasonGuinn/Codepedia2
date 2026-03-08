@@ -1,7 +1,6 @@
 ---
 tags:
-  - type/module
-  - type/dashboard
+  - type/topic
 order: 7
 cssclasses:
   - nav-menu

@@ -1,6 +1,7 @@
 ---
 tags:
-  - type/module
+  - type/topic
+  - status/review
 order: 2
 cssclasses:
   - nav-menu

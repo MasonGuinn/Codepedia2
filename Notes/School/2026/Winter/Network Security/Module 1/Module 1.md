@@ -4,7 +4,7 @@ parent: "[[Network Security]]"
 forward: "[[Network Security]]"
 order: 1
 tags:
-  - topic
+  - type/topic
 ---
 > *Created: <%+ tp.file.creation_date("M/D/YYYY @ h:mm A") %>*
 > *Modified: <%+ tp.file.last_modified_date("M/D/YYYY @ h:mm A") %>*

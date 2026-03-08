@@ -16,14 +16,18 @@ forward: "[[Network Security]]"
 ```dataview
 LIST WITHOUT ID
 file.link
-FROM #type/module
+FROM #type/topic
 WHERE contains(file.folder, this.file.folder)
 SORT order ASC
 ```
 
-# <span class="nav-title">Tests</span>
+# <span class="nav-title">Test Prep</span>
 ```dataview
-LIST WITHOUT ID file.link FROM #type/test-prep WHERE contains(file.folder, this.file.folder) SORT order ASC
+LIST WITHOUT ID
+file.link
+FROM #type/test-prep
+WHERE contains(file.folder, this.file.folder)
+SORT order ASC
 ```
 # <span class="nav-title">Other</span>
 ```dataview

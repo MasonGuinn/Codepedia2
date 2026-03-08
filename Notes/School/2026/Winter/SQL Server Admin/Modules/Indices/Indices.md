@@ -1,7 +1,7 @@
 ---
 tags:
-  - type/module
-  - status/draft
+  - type/topic
+  - status/review
 order: 5
 cssclasses:
   - nav-menu
